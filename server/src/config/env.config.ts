@@ -13,7 +13,9 @@ if (isNotLoaded) {
 
 const envConfig = {
   serverPort: process.env.SERVER_PORT,
+  clientPort: process.env.CLIENT_PORT,
   mongo_Url: process.env.MONGO_URL,
+  ACCESS_TOKEN: process.env.ACCESS_TOKEN_SECRET,
 };
 
 export default envConfig;
