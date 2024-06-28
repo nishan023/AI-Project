@@ -1,7 +1,7 @@
 import RegistrationInterface from "../components/RegistrationPageComponents/RegistrationInterface";
 
 
-const Register =()=>{
+const RegisterPage =()=>{
     return(
         <div className="bg-gray-900 h-screen flex justify-center items-center">
             <RegistrationInterface/>
@@ -9,4 +9,4 @@ const Register =()=>{
     )
 }
 
-export default Register;
+export default RegisterPage;

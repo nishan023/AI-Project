@@ -62,6 +62,7 @@ const RegistrationInterface=()=>{
         <div className="bg-slate-50 flex flex-col justify-center h-4/6 rounded-lg space-y-5 p-20 pt-32">
             
             <TextField 
+                required
                 variant="outlined"
                 label="Username"
                 value={username}
@@ -70,6 +71,7 @@ const RegistrationInterface=()=>{
 
 
             <TextField 
+                required
                 variant="outlined" 
                 label="E-mail" 
                 type="email"
@@ -80,8 +82,11 @@ const RegistrationInterface=()=>{
             />
 
             <TextField
+                    required
                     variant="outlined"
                     label="Password"
+                    value={password}
+                    onChange={(e)=> setPassword(e.target.value)}
                     type={showPassword ? 'text' : 'password'}
                     InputProps={{
                     endAdornment: (
@@ -98,7 +103,6 @@ const RegistrationInterface=()=>{
             />
 
             <Button variant="contained" type="submit">Register</Button>
-            <Link><p className="text-center underline hover:text-blue-600">Forgot password?</p></Link>
         </div>
         </form>
     )
