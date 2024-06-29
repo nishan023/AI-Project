@@ -16,6 +16,9 @@ const envConfig = {
   clientPort: process.env.CLIENT_PORT,
   mongo_Url: process.env.MONGO_URL,
   ACCESS_TOKEN: process.env.ACCESS_TOKEN_SECRET,
+  USER_EMAIL: process.env.USER,
+  USER_PASS: process.env.PASS,
+  CLIENT_URL: process.env.CLIENT_URL,
 };
 
 export default envConfig;
