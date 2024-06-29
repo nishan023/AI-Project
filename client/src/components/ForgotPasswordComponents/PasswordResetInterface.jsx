@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
@@ -7,6 +7,9 @@ import { forgetPasswordReq } from "../../services/Apis";
 import Swal from "sweetalert2";
 
 export default function ForgetPasswordInterface() {
+
+  const navigate = useNavigate();
+
   const schema = yup.object().shape({
     email: yup
       .string()
@@ -30,7 +33,7 @@ export default function ForgetPasswordInterface() {
           text: response.message,
           icon: "success",
           confirmButtonText: "OK",
-        });
+        }).then(navigate("/login"));
       } catch (error) {
         Swal.fire({
           title: "Error ",
@@ -44,7 +47,7 @@ export default function ForgetPasswordInterface() {
 
   return (
     <>
-      <section className="bg-gray-50 py-6">
+      <section className="bg-gray-900 py-6">
         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:min-h-screen lg:py-0">
           <div className="w-full bg-white rounded-lg shadow  md:mt-0 sm:max-w-md xl:p-0  ">
             <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
@@ -76,16 +79,6 @@ export default function ForgetPasswordInterface() {
                 >
                   Send Link
                 </button>
-
-                <p className="text-sm font-light text-gray-500 ">
-                  Already have an account?{" "}
-                  <Link
-                    className="font-medium text-keppel-600 hover:underline"
-                    to={"/login"}
-                  >
-                    Login Here
-                  </Link>
-                </p>
               </form>
             </div>
           </div>

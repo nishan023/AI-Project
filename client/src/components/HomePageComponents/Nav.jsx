@@ -1,6 +1,5 @@
 import { Button } from "@mui/material";
 import { Link, Navigate } from "react-router-dom";
-import Register from "../../pages/RegisterPage";
 
 const Nav = () => {
   return (
