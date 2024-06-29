@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-
 import { resetPasswordReq, checkResetLinkReq } from "../../services/Apis";
 import { useNavigate, useParams } from "react-router-dom";
 import Swal from "sweetalert2";
