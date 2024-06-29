@@ -1,10 +1,11 @@
-import { IRegisterDto, IUser } from "../@types/interfaces";
-import { JsonWebTokenUtils } from "./jwt.service";
+import { IRegisterDto, IUser } from "../../@types/interfaces";
+import { JsonWebTokenUtils } from "../jwt.service";
 import { passwordStrength } from "check-password-strength";
-import User from "../database/models/User";
-import AppError from "../utils/errorUtils/appError";
-import App from "../server";
-import { AuthServiceInterface } from "./implementation/auth.service.interface";
+import User from "../../database/models/User";
+import AppError from "../../utils/errorUtils/appError";
+import App from "../../server";
+
+import { AuthServiceInterface } from "../implementation/auth.service.interface";
 
 export class AuthService implements AuthServiceInterface {
   public static async registerUser({

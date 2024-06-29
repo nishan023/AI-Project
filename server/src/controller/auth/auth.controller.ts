@@ -1,9 +1,9 @@
 import { NextFunction, Request, Response } from "express";
-import { AuthService } from "../service/auth.service";
-import { IRegisterDto } from "../@types/interfaces";
-import { sendResposne } from "../helpers/send-Response";
+import { AuthService } from "../../service/auth/auth.service";
+import { IRegisterDto } from "../../@types/interfaces";
+import { sendResposne } from "../../helpers/send-Response";
 
-import AppError from "../utils/errorUtils/appError";
+import AppError from "../../utils/errorUtils/appError";
 
 export class AuthController {
   public static async register(
