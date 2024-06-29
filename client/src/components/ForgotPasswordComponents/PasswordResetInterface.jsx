@@ -1,88 +1,96 @@
-import { Button, TextField } from "@mui/material";
-import { useEffect, useState ,useRef,useCallback} from "react";
 import { Link } from "react-router-dom";
 
+import { useForm } from "react-hook-form";
+import * as yup from "yup";
+import { yupResolver } from "@hookform/resolvers/yup";
+import { forgetPasswordReq } from "../../services/Apis";
+import Swal from "sweetalert2";
 
+export default function ForgetPasswordInterface() {
+  const schema = yup.object().shape({
+    email: yup
+      .string()
+      .email("Please enter a valid email address.")
+      .required("Email is required."),
+  });
 
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({ resolver: yupResolver(schema) });
 
-const ResetPasswordInterface=()=>{
-
-    const [emailStatus,setEmailStatus] = useState(false);
-
-    const sendPasswordResetRequest=()=>{
-        setEmailStatus(true);
-        console.log("Send email")
+  async function onSubmit(data) {
+    if (data && data.email) {
+      try {
+        const response = await forgetPasswordReq({ email: data.email });
+        console.log(response);
+        Swal.fire({
+          title: "Success ",
+          text: response.message,
+          icon: "success",
+          confirmButtonText: "OK",
+        });
+      } catch (error) {
+        Swal.fire({
+          title: "Error ",
+          text: error,
+          icon: "error",
+          confirmButtonText: "OK",
+        });
+      }
     }
+  }
 
-    const SendEmail=()=>{
-        return(
-        <>
-        <p className="text-lg">Enter your email</p>
-                <TextField
-                    variant="outlined"
-                    label="email"
-                    type="email"
-                    required
-                    />
-                <Button variant="contained" onClick={sendPasswordResetRequest}>Request new password</Button>
-       </>
-        )
-    }
+  return (
+    <>
+      <section className="bg-gray-50 py-6">
+        <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:min-h-screen lg:py-0">
+          <div className="w-full bg-white rounded-lg shadow  md:mt-0 sm:max-w-md xl:p-0  ">
+            <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+              <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl ">
+                Forget Password
+              </h1>
+              <form
+                onSubmit={handleSubmit(onSubmit)}
+                className="space-y-4 md:space-y-6"
+              >
+                <div>
+                  <label className="block mb-2 text-sm font-medium text-gray-900 ">
+                    Your email
+                  </label>
+                  <input
+                    className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:outline-keppel-600 focus:ring-keppel-600 focus:border-keppel-600 block w-full p-2.5"
+                    placeholder="name@example.com"
+                    {...register("email", { required: true })}
+                  />
+                  {errors.email && (
+                    <p className="text-red-600 text-sm mt-1">
+                      {errors.email.message}
+                    </p>
+                  )}
+                </div>
+                <button
+                  type="submit"
+                  className="w-full text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
+                >
+                  Send Link
+                </button>
 
-    const ResendEmail=({ initialSeconds })=>{
-        const [seconds, setSeconds] = useState(initialSeconds);
-        const CountdownTimer = () => {
-            const intervalRef = useRef();
-          
-            const startTimer = useCallback(() => {
-              if (intervalRef.current) {
-                clearInterval(intervalRef.current);
-              }
-          
-              setSeconds(initialSeconds); // Reset timer to initial value
-          
-              intervalRef.current = setInterval(() => {
-                setSeconds((prevSeconds) => {
-                  if (prevSeconds <= 1) {
-                    clearInterval(intervalRef.current);
-                    return 0;
-                  }
-                  return prevSeconds - 1;
-                });
-              }, 1000);
-            }, [initialSeconds]);
-          
-            const formatTime = (seconds) => {
-              const minutes = Math.floor(seconds / 60);
-              const remainingSeconds = seconds % 60;
-              return `${minutes < 10 ? '0' : ''}${minutes}:${remainingSeconds < 10 ? '0' : ''}${remainingSeconds}`;
-            };
-          
-            return (
-              <div style={{ textAlign: 'center', marginTop: '20%' }}>
-                {seconds > 0 ? (
-                  <div style={{ fontSize: '2rem' }}>{formatTime(seconds)}</div>
-                ) : (
-                  "Time's up!"
-                )}
-              </div>
-            );
-          };
-          
-        return(
-            <>
-            <p className="text-center">Didn't get email?</p>
-            {seconds==0?"":<Link className="underline" onClick={sendPasswordResetRequest}>Resend Password Reset Form</Link>}
-            <CountdownTimer initialSeconds={10}/>
-            </>
-        )
-    }
-    
-    return(
-        <div className="bg-slate-50 flex flex-col justify-center h-4/6 rounded-lg space-y-5 p-20 pt-32">
-            {emailStatus?<ResendEmail initialSeconds={10}/>:<SendEmail/>}
+                <p className="text-sm font-light text-gray-500 ">
+                  Already have an account?{" "}
+                  <Link
+                    className="font-medium text-keppel-600 hover:underline"
+                    to={"/login"}
+                  >
+                    Login Here
+                  </Link>
+                </p>
+              </form>
+            </div>
+          </div>
         </div>
-    )
+      </section>
+    </>
+  );
 }
-
-export default ResetPasswordInterface;

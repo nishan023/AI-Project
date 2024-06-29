@@ -1,11 +1,11 @@
-import ResetPasswordInterface from "../components/ForgotPasswordComponents/PasswordResetInterface";
+import ForgetPasswordInterface from "../components/ForgotPasswordComponents/PasswordResetInterface";
 
-const ForgotPassword=()=>{
-    return(
-        <div className="bg-gray-900 h-screen flex justify-center items-center">
-            <ResetPasswordInterface/>
-        </div>
-    )
-}
+const ForgotPassword = () => {
+  return (
+    <div>
+      <ForgetPasswordInterface />
+    </div>
+  );
+};
 
 export default ForgotPassword;

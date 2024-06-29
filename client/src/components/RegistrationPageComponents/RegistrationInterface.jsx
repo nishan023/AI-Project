@@ -104,11 +104,15 @@ const RegistrationInterface = () => {
         <Button variant="contained" type="submit">
           Register
         </Button>
-        <Link>
-          <p className="text-center underline hover:text-blue-600">
-            Forgot password?
-          </p>
-        </Link>
+        <p className="text-sm font-light text-gray-500">
+          Already have an account?{" "}
+          <Link
+            className="font-medium text-keppel-600 hover:underline"
+            to={"/login"}
+          >
+            Login Here
+          </Link>
+        </p>
       </div>
     </form>
   );
