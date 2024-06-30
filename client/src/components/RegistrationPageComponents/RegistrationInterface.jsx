@@ -7,16 +7,17 @@ import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import Swal from "sweetalert2";
 import { Controller, useForm } from "react-hook-form";
+import { GoogleLogin} from "@react-oauth/google";
 
 const RegistrationInterface = () => {
   const schema = yup.object().shape({
     username: yup
-              .string()
-              .required("Username is required"),
+      .string()
+      .required("Username is required"),
     email: yup
-            .string()
-            .email("Invalid email format")
-            .required("Email is required"),
+      .string()
+      .email("Invalid email format")
+      .required("Email is required"),
     password: yup
       .string()
       .min(8, "Password must be at least 8 characters.")
@@ -24,11 +25,11 @@ const RegistrationInterface = () => {
       .required("Password is required"),
   });
 
-  const { 
-    handleSubmit, 
-    control, 
-    formState: { errors } 
-  } = useForm({ resolver: yupResolver(schema),});
+  const {
+    handleSubmit,
+    control,
+    formState: { errors }
+  } = useForm({ resolver: yupResolver(schema), });
 
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
@@ -121,6 +122,19 @@ const RegistrationInterface = () => {
         <Button variant="contained" type="submit">
           Register
         </Button>
+        <div>
+          <p className="text-center">OR</p>
+        </div>
+
+        <GoogleLogin
+          onSuccess={credentialResponse => {
+            console.log(credentialResponse);
+          }}
+          onError={() => {
+            console.log('Login Failed');
+          }}
+        />
+
         <p className="text-sm font-light text-gray-500">
           Already have an account?{" "}
           <Link className="font-medium text-keppel-600 hover:underline" to={"/login"}>

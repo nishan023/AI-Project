@@ -1,14 +1,22 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { resetPasswordReq, checkResetLinkReq } from "../../services/Apis";
 import { useNavigate, useParams } from "react-router-dom";
 import Swal from "sweetalert2";
-import { useForm } from "react-hook-form";
+import { useForm, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import { IconButton, InputAdornment, TextField } from "@mui/material";
+import { Visibility, VisibilityOff } from "@mui/icons-material";
 
 export default function ResetPasswordInterface() {
   const { id, token } = useParams();
   const navigate = useNavigate();
+  const [showPassword, setShowPassword] = useState(false)
+  const [showPassword2, setShowPassword2] = useState(false)
+
+  const toggleShowPassword = (setPass,state) => {
+    setPass(() => !state);
+  };
 
   const schema = yup.object().shape({
     password: yup
@@ -25,6 +33,7 @@ export default function ResetPasswordInterface() {
   const {
     register,
     handleSubmit,
+    control,
     formState: { errors },
   } = useForm({
     resolver: yupResolver(schema),
@@ -70,7 +79,7 @@ export default function ResetPasswordInterface() {
   }
 
   return (
-    <section className="bg-gray-50 py-6">
+    <section className="bg-gray-900 h-screen flex justify-center items-center">
       <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:min-h-screen lg:py-0">
         <div className="w-full bg-white rounded-lg shadow  md:mt-0 sm:max-w-md xl:p-0  ">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
@@ -82,36 +91,60 @@ export default function ResetPasswordInterface() {
               onSubmit={handleSubmit(onSubmit)}
             >
               <div>
-                <label className="block mb-2 text-sm font-medium text-gray-900 ">
-                  New Password
-                </label>
-                <input
-                  {...register("password")}
-                  type="password"
-                  placeholder="••••••••"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:outline-keppel-600 focus:ring-keppel-600 focus:border-keppel-600 block w-full p-2.5"
+                <Controller
+                  name="password"
+                  control={control}
+                  render={({ field }) => (
+                    <TextField
+                      {...field}
+                      variant="outlined"
+                      label="Password"
+                      type={showPassword ? "text" : "password"}
+                      error={!!errors.password}
+                      helperText={errors.password?.message}
+                      InputProps={{
+                        endAdornment: (
+                          <InputAdornment position="end">
+                            <IconButton
+                              aria-label="toggle password visibility"
+                              onClick={()=>toggleShowPassword(setShowPassword,showPassword)}
+                            >
+                              {showPassword ? <Visibility /> : <VisibilityOff />}
+                            </IconButton>
+                          </InputAdornment>
+                        ),
+                      }}
+                    />
+                  )}
                 />
-                {errors.password && (
-                  <p className="text-red-600 text-sm mt-1">
-                    {errors.password.message}
-                  </p>
-                )}
               </div>
               <div>
-                <label className="block mb-2 text-sm font-medium text-gray-900">
-                  Confirm password
-                </label>
-                <input
-                  {...register("confirmPassword")}
-                  type="password"
-                  placeholder="••••••••"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:outline-keppel-600 focus:ring-keppel-600 focus:border-keppel-600 block w-full p-2.5"
+                <Controller
+                  name="confirmPassword"
+                  control={control}
+                  render={({ field }) => (
+                    <TextField
+                      {...field}
+                      variant="outlined"
+                      label="Confirm Password"
+                      type={showPassword2 ? "text" : "password"}
+                      error={!!errors.confirmPassword}
+                      helperText={errors.confirmPassword?.message}
+                      InputProps={{
+                        endAdornment: (
+                          <InputAdornment position="end">
+                            <IconButton
+                              aria-label="toggle password visibility"
+                              onClick={()=>toggleShowPassword(setShowPassword2,showPassword2)}
+                            >
+                              {showPassword2 ? <Visibility /> : <VisibilityOff />}
+                            </IconButton>
+                          </InputAdornment>
+                        ),
+                      }}
+                    />
+                  )}
                 />
-                {errors.confirmPassword && (
-                  <p className="text-red-600 text-sm mt-1">
-                    {errors.confirmPassword.message}
-                  </p>
-                )}
               </div>
               <button
                 type="submit"

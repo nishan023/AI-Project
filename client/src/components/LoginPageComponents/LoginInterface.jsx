@@ -55,6 +55,8 @@ const LoginInterface = () => {
     }
   };
 
+  
+
   return (
     <form onSubmit={handleSubmit}>
       <div className="bg-slate-50 flex flex-col justify-center h-4/6 rounded-lg space-y-5 p-20 pt-32">
@@ -97,6 +99,13 @@ const LoginInterface = () => {
         >
           Forgot password?
         </Link>
+
+          <div className="flex space-x-2">
+          <p className="font-light text-gray-500">Don't have an account?</p>
+        <Link to={"/register"}>
+          <p className="text-center hover:underline font-small text-gray-500">Register here</p>
+        </Link>
+          </div>
       </div>
     </form>
   );
