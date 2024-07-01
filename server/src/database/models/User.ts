@@ -19,6 +19,7 @@ const userSchema = new mongoose.Schema({
     required: [true, FieldCannotBeEmpty("Password")],
     min: [8, "Must be at least 8, got {VALUE}"],
   },
+  isActive: { type: Boolean, default: true },
 });
 
 const User = mongoose.model("User", userSchema);

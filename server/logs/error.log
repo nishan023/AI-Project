@@ -13,5 +13,3 @@
  [31merror[39m: [31mError Message : Email Does Not Exists,  Please Enter A valid Email and Status Code : 401 [39m
  [31merror[39m: [31mError Message : The Password Match With Your Old Password, Please Enter Strong Password and Status Code : 401 [39m
  [31merror[39m: [31mError Message : Too weak, Please Enter A Strong Password and Status Code : 401 [39m
- [31merror[39m: [31mError Message : shubham or  You Entered Is Already Registered and Status Code : 401 [39m
- [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
