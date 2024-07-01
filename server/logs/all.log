@@ -10,3 +10,765 @@
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 4000...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 4000...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/login - - - - ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 201 155 - 2.296 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 201 76 - 1.967 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 201 155 - 2.642 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 201 76 - 43.139 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 403 91 - 24.781 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 403 92 - 21.132 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/register 403 92 - 8.936 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/register 403 92 - 10.509 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 403 93 - 36.576 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/register 403 93 - 7.583 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 401 93 - 29.494 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 401 1001 - 26.081 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/register 401 1001 - 7.574 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 401 93 - 25.030 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/register 401 93 - 7.407 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 500 185 - 126.080 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/register 201 124 - 163.414 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : subham or shubham@gmail.com You Entered Is Already Registered and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/register 401 109 - 22.557 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : subham or undefined You Entered Is Already Registered and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/register 401 101 - 6.207 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/register 500 117 - 93.916 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 1.745 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : User validation failed: username: Full Name Field Cannot Be Empty, email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 160 - 176.930 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.212 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : User validation failed: username: Full Name Field Cannot Be Empty, email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 160 - 89.129 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.197 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : User validation failed: username: Full Name Field Cannot Be Empty, email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 160 - 83.526 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.121 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : User validation failed: username: Full Name Field Cannot Be Empty, email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 160 - 84.907 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.227 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 124 - 85.625 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.222 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : subham or shubhamrajjoshi69@gmail.com You Entered Is Already Registered and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 401 119 - 7.408 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.175 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 124 - 122.632 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.183 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 124 - 88.242 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.138 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 123 - 75.622 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.116 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : radom or suab@gmail.com You Entered Is Already Registered and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 401 105 - 6.501 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.263 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 124 - 83.239 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.113 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : User validation failed: username: Full Name Field Cannot Be Empty, email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 160 - 82.673 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.207 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 122 - 74.729 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 2.678 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 124 - 184.199 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.210 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : subham or subhamrajjoh@gmail.com You Entered Is Already Registered and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 401 114 - 20.008 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.332 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 127 - 119.500 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 125 - 150.725 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login - - - - ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login - - - - ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 452 - 20.203 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.079 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 452 - 110.153 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.367 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 452 - 117.102 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.113 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 452 - 91.436 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.190 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 452 - 101.552 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.298 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 492 - 171.560 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.301 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 492 - 76.546 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 0.913 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/auth/forget-password and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 404 85 - 1.975 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 1.006 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Email Does Not Exists,  Please Enter A valid Email and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 401 98 - 11.757 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 0.117 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'shubhamrajjoshi69@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 960,[39m
+[32m  messageTime: 873,[39m
+[32m  messageSize: 1769,[39m
+[32m  response: '250 2.0.0 OK  1719637304 d9443c01a7336-1fac10c8b1dsm23957295ad.42 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'shubhamrajjoshi69@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<d28a82df-4f33-83cd-8435-f9db0780e457@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 50 - 3258.097 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 1.777 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'shubhamrajjoshi69@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 957,[39m
+[32m  messageTime: 858,[39m
+[32m  messageSize: 1769,[39m
+[32m  response: '250 2.0.0 OK  1719637495 41be03b00d2f7-72c6b0adfb1sm1690966a12.44 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'shubhamrajjoshi69@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<09c8b8c0-fbe3-adb9-6d3a-1e24e727163a@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 50 - 3092.558 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 0.148 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'shubhamrajjoshi69@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 921,[39m
+[32m  messageTime: 797,[39m
+[32m  messageSize: 1769,[39m
+[32m  response: '250 2.0.0 OK  1719637544 d9443c01a7336-1fac1535b1esm23996185ad.140 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'shubhamrajjoshi69@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<e52a1a55-ac09-edb1-cf44-637b7a235824@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 50 - 2889.409 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 0.161 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'shubhamrajjoshi69@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 899,[39m
+[32m  messageTime: 828,[39m
+[32m  messageSize: 1769,[39m
+[32m  response: '250 2.0.0 OK  1719637562 98e67ed59e1d1-2c91ce74143sm2507043a91.27 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'shubhamrajjoshi69@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<6e0c2270-bf81-0c27-4946-18b90c567b15@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 50 - 5124.777 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 1.186 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'shubhamrajjoshi69@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 893,[39m
+[32m  messageTime: 782,[39m
+[32m  messageSize: 1769,[39m
+[32m  response: '250 2.0.0 OK  1719637621 d9443c01a7336-1fac1598cfbsm23963925ad.250 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'shubhamrajjoshi69@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<c3b0c3d9-a228-827f-f491-4ec7b14e00a2@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 163 - 2864.401 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 1.267 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'shubhamrajjoshi69@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 917,[39m
+[32m  messageTime: 844,[39m
+[32m  messageSize: 1769,[39m
+[32m  response: '250 2.0.0 OK  1719637642 d9443c01a7336-1fac15788casm23923545ad.219 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'shubhamrajjoshi69@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<e3febb98-871d-1cd4-6eaa-6f841ae6ae8d@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 181 - 2963.908 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 0.244 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'shubhamrajjoshi69@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 863,[39m
+[32m  messageTime: 793,[39m
+[32m  messageSize: 1769,[39m
+[32m  response: '250 2.0.0 OK  1719638089 d9443c01a7336-1fad2d6dc43sm13679475ad.126 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'shubhamrajjoshi69@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<e7b95436-0f2a-8072-f689-6ea299837f53@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 181 - 3522.518 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 0.212 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 0.226 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 8.412 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 5.117 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 3.600 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 3.514 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 0.650 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 0.236 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 5.500 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 5.240 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 0.237 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 4.599 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 1.143 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 13.341 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 4.064 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 0.159 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 3.134 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 0.306 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'shubhamrajjoshi69@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 865,[39m
+[32m  messageTime: 793,[39m
+[32m  messageSize: 1769,[39m
+[32m  response: '250 2.0.0 OK  1719638444 41be03b00d2f7-72c6d102b65sm2002676a12.77 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'shubhamrajjoshi69@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<ccf4b548-0cf7-e381-93ee-8784e4a2db5b@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 181 - 3656.533 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 0.240 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 0.274 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 7.318 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 3.876 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/reset-password/667f73b401e3e278a4cafe5b 204 0 - 0.157 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password Match With Your Old Password, Please Enter Strong Password and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/reset-password/667f73b401e3e278a4cafe5b 401 119 - 85.348 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/reset-password/667f73b401e3e278a4cafe5b 204 0 - 0.124 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Too weak, Please Enter A Strong Password and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/reset-password/667f73b401e3e278a4cafe5b 401 88 - 74.327 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/reset-password/667f73b401e3e278a4cafe5b 204 0 - 1.206 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/reset-password/667f73b401e3e278a4cafe5b 201 116 - 179.858 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.219 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 492 - 102.160 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 0.350 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 204 0 - 0.159 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 8.146 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 3.020 ms[39m
+[35m[39m
