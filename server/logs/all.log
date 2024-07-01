@@ -772,3 +772,412 @@
 [35m[39m
  [35mhttp[39m: [35mGET /api/auth/check-reset-link/667f73b401e3e278a4cafe5b/bRJnS9MSkILnSIVkfF12q81BEcxhNnT5 201 106 - 3.020 ms[39m
 [35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port undefined...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 1.697 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Password Should be 8 Character Long and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 401 83 - 87.454 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.303 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Password Should be 8 Character Long and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 401 83 - 17.684 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 1.820 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 124 - 169.355 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.658 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 142.000 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.293 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 10.562 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.282 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 122.524 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.249 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 119.576 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 0.192 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'nissandhakal11@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 966,[39m
+[32m  messageTime: 931,[39m
+[32m  messageSize: 1764,[39m
+[32m  response: '250 2.0.0 OK  1719669596 98e67ed59e1d1-2c91d3bc5ffsm3366851a91.43 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'nissandhakal11@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<f7d907db-bd84-3e5e-f8cf-5d65e1ba4679@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 181 - 4902.484 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/6680131515d4d3ab137c7db1/gyqSfGofxrED076yGR3ChYWfUKUtSb18 204 0 - 1.581 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/check-reset-link/6680131515d4d3ab137c7db1/gyqSfGofxrED076yGR3ChYWfUKUtSb18 204 0 - 0.589 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/6680131515d4d3ab137c7db1/gyqSfGofxrED076yGR3ChYWfUKUtSb18 201 106 - 28.802 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/check-reset-link/6680131515d4d3ab137c7db1/gyqSfGofxrED076yGR3ChYWfUKUtSb18 201 106 - 9.145 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/reset-password/6680131515d4d3ab137c7db1 204 0 - 0.496 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/reset-password/6680131515d4d3ab137c7db1 201 116 - 227.000 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.199 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 482 - 213.613 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/6680131515d4d3ab137c7db1 404 98 - 11.114 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/6680131515d4d3ab137c7db1 404 98 - 2.400 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/6680131515d4d3ab137c7db1 404 98 - 5.841 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/6680131515d4d3ab137c7db1 404 98 - 5.679 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/6680131515d4d3ab137c7db1 404 98 - 2.835 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/6680131515d4d3ab137c7db1 404 98 - 1.365 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/ and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/ 404 74 - 2.620 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/ and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/ 404 74 - 4.664 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile 404 73 - 2.172 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/6680131515d4d3ab137c7db1 404 98 - 6.452 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/6680131515d4d3ab137c7db1 404 98 - 5.918 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/6680131515d4d3ab137c7db1 404 98 - 2.527 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /api/user/profile/6680131515d4d3ab137c7db1 404 102 - 10.404 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /api/user/profile/6680131515d4d3ab137c7db1 404 102 - 2.871 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Missing authentication token and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile/6680131515d4d3ab137c7db1 500 76 - 12.068 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 482 - 257.043 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile/6680131515d4d3ab137c7db1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile/6680131515d4d3ab137c7db1 404 98 - 2.998 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Missing authentication token and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile/6680131515d4d3ab137c7db1 500 76 - 2.721 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Missing authentication token and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile/6680131515d4d3ab137c7db1 500 76 - 1.663 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile 404 73 - 14.818 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Missing authentication token and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile/6680131515d4d3ab137c7db1 500 76 - 6.962 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : User is not logged in and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile/6680131515d4d3ab137c7db1 500 69 - 11.065 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : User is not logged in and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile/6680131515d4d3ab137c7db1 500 69 - 37.479 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/user/profile/6680131515d4d3ab137c7db1 200 187 - 65.654 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 404 77 - 7.579 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 187 - 41.087 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Username or Email Is Already Use and Status Code : 401 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 401 80 - 69.481 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 23 - 24.768 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 212.961 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 253.091 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 179.668 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 376.535 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 331.965 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 211.639 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 247.234 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 390.029 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 332.425 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 117.192 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 240.042 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 125.227 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 141.140 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 126 - 164.131 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 469 - 184.744 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Current password is incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 403 77 - 159.748 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 438.025 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 204 - - 310.204 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Current password is incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 403 77 - 116.392 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 201 52 - 1059.432 ms[39m
+[35m[39m

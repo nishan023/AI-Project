@@ -52,8 +52,8 @@ export class AuthService implements AuthServiceInterface {
     //     401
     //   );
     // }
-    if (password.length < 8)
-      throw new AppError(`Password Should be 8 Character Long`, 401);
+    // if (password.length < 8)
+    //   throw new AppError(`Password Should be 8 Character Long`, 401);
     const hashPassword = await JsonWebTokenUtils.HashPassword(password);
     const newUser = new User({
       username: username,
