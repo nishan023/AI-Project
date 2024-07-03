@@ -13,7 +13,7 @@ userRouter.get(
 //  update email and username
 userRouter.patch(
   "/user/profile/updateusername",
-            authenticateToken,
+  authenticateToken,
   userProfileController.updateUserProfile
 );
 
@@ -26,8 +26,16 @@ userRouter.patch(
 
 // deactivate account
 userRouter.delete(
-  "user/profile/deactivate/:id",
+  "/user/profile/deactivate",
+  authenticateToken,
   userProfileController.deactivateAccount
+);
+
+// POST reactivate account
+userRouter.post(
+  "/user/profile/reactivate",
+  authenticateToken,
+  userProfileController.reactivateAccount
 );
 
 export default userRouter;

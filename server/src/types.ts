@@ -9,6 +9,7 @@ declare global {
 }
 
   export interface UserJWTPayload {
+      id: any;
       email: any;
       password: any
   }
