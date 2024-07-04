@@ -1399,3 +1399,16 @@
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 478.156 ms[39m
 [35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 117 - 170.129 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : test5 or undefined You Entered Is Already Registered and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 401 100 - 9.846 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 167.731 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 221 - 34.854 ms[39m
+[35m[39m

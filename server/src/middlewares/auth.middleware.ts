@@ -1,53 +1,40 @@
-import Boom from "@hapi/boom";
-import { Response, NextFunction, Request } from "express";
-import { UserJWTPayload } from "../types";
-import { verifyAccessToken } from "../utils/token/token.utils";
+import { NextFunction, Request, Response } from "express";
+import jwt, { JsonWebTokenError } from "jsonwebtoken";
+import { JwtPayload } from "jsonwebtoken";
+import AppError from "../utils/errorUtils/appError";
+import { HTTPStatusCode } from "../constants/statusCodeConstant";
+import envConfig from "../config/env.config";
 
-// Middleware to authenticate user JWT token.
-//  async function authenticateToken(
-//   req: Request,
-//   res: Response,
-//   next: NextFunction
-// ) {
-//   const authHeader = req.headers["authorization"];
-//   const token = authHeader && authHeader.split(' ')[1];
-//   if (!token) {
-//     throw Boom.badRequest("Missing authentication token");
-//   }
-
-//   try {
-//     const decodedToken = await verifyAccessToken(token);
-//     console.log(decodedToken);
-//     req.user = decodedToken as UserJWTPayload;
-
-//     next();
-//   } catch (error) {
-//     console.log(error)
-    
-//     throw Boom.unauthorized("User is not logged in");
-//   }
-// }
-
-
-export async function authenticateToken(
-    req: Request,
-    res: Response,
-    next: NextFunction
-) {
-    const token =
-        req.headers.authorization && req.headers.authorization.split(' ')[1]
-        console.log(token);
-        
-    if (!token) {
-        throw Boom.badRequest('Missing authentication token')
+declare global {
+  namespace Express {
+    interface Request {
+      user?: any;
     }
-
-    try {
-        const decodedToken = await verifyAccessToken(token)
-        req.user = decodedToken as UserJWTPayload
-
-        next()
-    } catch (error) {
-        throw Boom.unauthorized('User is not logged in')
-    }
+  }
 }
+
+export const authenticateToken = async (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  const authToken = req.headers["authorization"];
+  if (!authToken)
+    throw new AppError(
+      `Authentication Token is Missing`,
+      HTTPStatusCode.Forbidden
+    );
+
+  try {
+    const payload: JwtPayload | any = await jwt.verify(
+      authToken,
+      envConfig.ACCESS_TOKEN as string
+    );
+    if (Object.entries(payload).length === 0)
+      throw new AppError(`Payload is empty`, 401);
+    req.user = payload;
+    next();
+  } catch (err: JsonWebTokenError | Error | any) {
+    throw new AppError(err.message, err.status);
+  }
+};
