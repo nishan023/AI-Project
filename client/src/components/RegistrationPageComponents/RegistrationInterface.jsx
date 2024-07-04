@@ -2,12 +2,14 @@ import { Visibility, VisibilityOff } from "@mui/icons-material";
 import { Button, IconButton, InputAdornment, TextField } from "@mui/material";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { registerReq } from "../../services/Apis";
+import { googleUserDataReq, registerReq } from "../../services/Apis";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import Swal from "sweetalert2";
 import { Controller, useForm } from "react-hook-form";
 import { GoogleLogin} from "@react-oauth/google";
+import { useDispatch } from "react-redux";
+import { loginReducer } from "../../redux/authSlice";
 
 const RegistrationInterface = () => {
   const schema = yup.object().shape({
@@ -33,6 +35,7 @@ const RegistrationInterface = () => {
 
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const toggleShowPassword = () => {
     setShowPassword((prevShowPassword) => !prevShowPassword);
@@ -58,6 +61,36 @@ const RegistrationInterface = () => {
       });
     }
   };
+
+  const handleGoogleLoginSuccess = async(response)=>{
+      console.log("google login sucess",response);
+      const token = response.credential;
+
+      try{
+        const userData = await googleUserDataReq(token);
+        dispatch(
+          loginReducer({
+            access_token: userData.data.access_token,
+            userId: userData.data._id,
+            username: userData.data.username,
+            email: userData.data.email,
+          })
+        );
+        Swal.fire({
+          title: "Success ",
+          text: userData.message,
+          icon: "success",
+          confirmButtonText: "OK",
+        }).then(() => navigate("/welcome-page"));
+      } catch (err) {
+        Swal.fire({
+          title: "Error ",
+          text: err,
+          icon: "error",
+          confirmButtonText: "OK",
+        });
+      }
+  }
 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
@@ -127,9 +160,7 @@ const RegistrationInterface = () => {
         </div>
 
         <GoogleLogin
-          onSuccess={credentialResponse => {
-            console.log(credentialResponse);
-          }}
+          onSuccess={handleGoogleLoginSuccess}
           onError={() => {
             console.log('Login Failed');
           }}

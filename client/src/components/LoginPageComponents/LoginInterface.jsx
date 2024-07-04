@@ -30,7 +30,6 @@ const LoginInterface = () => {
 
     try {
       const userData = await loginReq(data);
-      console.log(userData);
       dispatch(
         loginReducer({
           access_token: userData.data.access_token,
@@ -54,9 +53,7 @@ const LoginInterface = () => {
       });
     }
   };
-
   
-
   return (
     <form onSubmit={handleSubmit}>
       <div className="bg-slate-50 flex flex-col justify-center h-4/6 rounded-lg space-y-5 p-20 pt-32">

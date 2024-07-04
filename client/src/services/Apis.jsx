@@ -9,6 +9,18 @@ export const loginReq = async (data) => {
   return await commonRequest("POST", `${BACKEND_URL}/api/auth/login`, data);
 };
 
+export const googleUserDataReq = async (token)=>{
+  const headers = {
+    'Authorization': `Bearer ${token}`,
+    'Content-Type': 'application/json'
+  };
+  return await commonRequest("GET",`${BACKEND_URL}/api/auth/login-google`,null,headers)
+}
+
+export const userDataReq= async(token)=>{
+  return await commonRequest("GET",`${BACKEND_URL}/user/profile`,null,{'Authorization': `Bearer ${token}`})
+}
+
 export const forgetPasswordReq = async (data) => {
   return await commonRequest(
     "POST",

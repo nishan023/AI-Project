@@ -22,6 +22,18 @@ import makeRandomString from "../../utils/randomUtils/randomString";
 import { sendEmail } from "../../helpers/sendEmail";
 import envConfig from "../../config/env.config";
 import { htmlEmail, textEmail } from "../../utils/randomUtils/mailContent";
+import { OAuth2Client} from "google-auth-library";
+
+const googleClient = new OAuth2Client(envConfig.GOOGLE_CLIENT_ID);
+
+export async function verifyGoogleToken(token:string) {
+  const ticket = await googleClient.verifyIdToken({
+    idToken:token,
+    audience:envConfig.GOOGLE_CLIENT_ID
+  })
+
+  return ticket.getPayload();
+}
 
 export class AuthService implements AuthServiceInterface {
   public static async registerUser({
@@ -110,6 +122,10 @@ export class AuthService implements AuthServiceInterface {
     return LoginResponse;
   }
 
+  public static async loginGmail(token: string){
+      const userData = await verifyGoogleToken(token);
+      return userData;
+  }
   public static async forgetPassoword({ email }: IForgetPasswordDto) {
     const checkEmail = isEmail(email);
     if (!checkEmail) {
