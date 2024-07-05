@@ -48,6 +48,27 @@ export class AuthController {
     }
   }
 
+
+  public static async googleLogin(req: Request, res: Response,next:NextFunction){
+    const authHeader = req.headers['authorization'];
+    const token = authHeader && authHeader.split(' ')[1];
+    try{
+    if(!token)
+      throw new AppError("Unauthorised",401);
+    const userData: any = await AuthService.loginGmail(token);
+    return sendResposne(
+      res,
+      201,
+      "Google login successful",
+      userData
+    )
+    }
+    catch(err)
+    {
+      next(err);
+    }
+  }
+
   public static async forgetPassword(
     req: Request,
     res: Response,

@@ -76,3 +76,11 @@
  [31merror[39m: [31mError Message : Cannot find /api/blog/6686ac130167ee7a82b5b032 and Status Code : 404 [39m
  [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
  [31merror[39m: [31mError Message : Cannot find /api/blog and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : admin or undefined You Entered Is Already Registered and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Cannot find /api/login-google and Status Code : 404 [39m

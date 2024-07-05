@@ -18,6 +18,7 @@ const envConfig = {
   USER_EMAIL: process.env.USER,
   USER_PASS: process.env.PASS,
   CLIENT_URL: process.env.CLIENT_URL,
+  GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID
 };
 
 export default envConfig;

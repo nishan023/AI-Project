@@ -53,4 +53,7 @@ export interface IloginResponse extends IUser {
   access_token: string;
 }
 
-export interface ILoginDto extends IUser {}
+export interface ILoginDto  {
+  username: StrUnd;
+  password:string;
+}
