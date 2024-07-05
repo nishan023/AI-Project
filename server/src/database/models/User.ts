@@ -19,13 +19,20 @@ const userSchema = new mongoose.Schema({
     type: String,
     minlength: [3, "Must be at least 3 characters"],
     maxlength: [50, "Must be at most 50 characters"],
-    default: null, 
+    default: null,
   },
   password: {
     type: String,
     required: [true, FieldCannotBeEmpty("Password")],
     min: [8, "Must be at least 8, got {VALUE}"],
   },
+
+  blogs: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Blog",
+    },
+  ],
   isActive: { type: Boolean, default: true },
   createdAt: { type: Date, default: Date.now },
   updatedAt: { type: Date, default: Date.now },

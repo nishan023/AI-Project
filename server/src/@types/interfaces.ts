@@ -43,6 +43,12 @@ export interface IForgetPasswordDto {
   email: string;
 }
 
+export interface ICreatePostDto {
+  title: string;
+  content: string;
+  tags?: [string];
+}
+
 export interface IloginResponse extends IUser {
   access_token: string;
 }

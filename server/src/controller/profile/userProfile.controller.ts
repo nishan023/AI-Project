@@ -88,7 +88,9 @@ export const deactivateAccount = async (
     }
 
     const data = await userProfileService.deactivateAccount(userId);
-    res.status(204).json(data);
+    return res.status(203).json({
+      message: "Your account is Deactivated.",
+    });
   } catch (err) {
     next(err);
   }

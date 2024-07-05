@@ -1,12 +1,14 @@
 import { Router } from "express";
 import * as userProfileController from "../controller/profile/userProfile.controller";
 import { authenticateToken } from "../middlewares/auth.middleware";
+import { checkisActive } from "../middlewares/check-isActive.middleware";
 const userRouter = Router();
 
 //Get profile
 userRouter.get(
   "/user/profile",
   authenticateToken,
+  checkisActive,
   userProfileController.getUserProfile
 );
 
@@ -14,6 +16,7 @@ userRouter.get(
 userRouter.patch(
   "/user/profile/updateusername",
   authenticateToken,
+  checkisActive,
   userProfileController.updateUserProfile
 );
 
@@ -21,6 +24,7 @@ userRouter.patch(
 userRouter.patch(
   "/user/profile/updatepassword",
   authenticateToken,
+  checkisActive,
   userProfileController.updatePassword
 );
 
@@ -28,6 +32,7 @@ userRouter.patch(
 userRouter.delete(
   "/user/profile/deactivate",
   authenticateToken,
+  checkisActive,
   userProfileController.deactivateAccount
 );
 
