@@ -1007,3 +1007,643 @@
 [35m[39m
  [35mhttp[39m: [35mGET /api/auth/login-google 201 640 - 1.201 ms[39m
 [35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 18.568 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 124 - 258.280 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.459 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 483 - 282.835 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/forget-password 204 0 - 0.360 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'hemrajjoshi3211@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 1035,[39m
+[32m  messageTime: 959,[39m
+[32m  messageSize: 1765,[39m
+[32m  response: '250 2.0.0 OK  1719938902 d9443c01a7336-1fac1535d4dsm86950925ad.177 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'hemrajjoshi3211@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<ff09b0de-d4d0-5d10-f7de-c5d92b743886@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 181 - 3945.567 ms[39m
+[35m[39m
+ [32minfo[39m: [32m{[39m
+[32m  accepted: [ 'hemrajjoshi3211@gmail.com' ],[39m
+[32m  rejected: [],[39m
+[32m  ehlo: [[39m
+[32m    'SIZE 35882577',[39m
+[32m    '8BITMIME',[39m
+[32m    'AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH',[39m
+[32m    'ENHANCEDSTATUSCODES',[39m
+[32m    'PIPELINING',[39m
+[32m    'CHUNKING',[39m
+[32m    'SMTPUTF8'[39m
+[32m  ],[39m
+[32m  envelopeTime: 995,[39m
+[32m  messageTime: 810,[39m
+[32m  messageSize: 1765,[39m
+[32m  response: '250 2.0.0 OK  1719938902 d9443c01a7336-1fac10d1b61sm86708895ad.57 - gsmtp',[39m
+[32m  envelope: {[39m
+[32m    from: 'shubhamrajjoshi69@gmail.com',[39m
+[32m    to: [ 'hemrajjoshi3211@gmail.com' ][39m
+[32m  },[39m
+[32m  messageId: '<c79a35a2-4a32-346d-8c75-7e7bff9f6f5d@gmail.com>'[39m
+[32m}[39m
+ [35mhttp[39m: [35mPOST /api/auth/forget-password 201 181 - 3147.663 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 1.752 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 122 - 179.212 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 198.242 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 404 88 - 8.874 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 404 88 - 7.105 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 404 88 - 2.744 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 102 - 7.415 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 102 - 7.224 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 404 88 - 8.886 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 102 - 3.944 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 102 - 2.255 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 102 - 1.759 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 102 - 1.689 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 102 - 1.822 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 106 - 7.446 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 106 - 3.608 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 106 - 7.511 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 106 - 6.908 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 106 - 3.172 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 106 - 1.782 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 106 - 1.926 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 106 - 2.038 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 106 - 1.437 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 102 - 7.430 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 500 102 - 3.475 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 404 88 - 2.099 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 404 88 - 6.872 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 404 88 - 2.466 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 404 88 - 1.450 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 404 88 - 1.812 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 404 88 - 1.350 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 199.222 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 253 - 15.979 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Password comparison failed and Status Code : 500 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 500 74 - 10.384 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Password comparison failed and Status Code : 500 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 500 74 - 10.858 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Password comparison failed and Status Code : 500 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 500 74 - 8.972 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Password comparison failed and Status Code : 500 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 500 74 - 8.200 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Password comparison failed and Status Code : 500 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 500 74 - 9.925 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Password comparison failed and Status Code : 500 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 500 74 - 11.586 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Password comparison failed and Status Code : 500 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 500 74 - 35.206 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updatepassword 201 52 - 223.929 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 91.157 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 83.120 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 110.706 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 404 88 - 6.801 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 204 - - 45.779 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 404 88 - 7.343 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 27.903 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 35.835 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 44.412 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 36.868 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 33.076 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 200 61 - 42.076 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 16.247 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 32.758 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 9.431 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 8.202 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 8.556 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 200 61 - 17.975 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 400 45 - 8.252 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 20.302 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 28.079 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 200 61 - 19.636 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 400 45 - 9.271 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 17.953 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 8.715 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 33.112 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 9.338 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 200 61 - 20.254 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 400 45 - 8.606 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 15.015 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 9.142 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 8.229 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 7.528 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 10.367 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 200 61 - 36.432 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/updateusername and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/updateusername 404 92 - 3.743 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/updateusername and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/updateusername 404 92 - 2.721 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot destructure property 'email' of 'body' as it is undefined. and Status Code : 500 [39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 500 117 - 7.765 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 27 - 43.824 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 39 - 46.019 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 39 - 20.092 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 123.435 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 169.552 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 158.296 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 200.868 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 127.988 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 111.316 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 103.115 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 180.548 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 253 - 35.316 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 24.738 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/user/profile 403 80 - 30.683 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 200 61 - 23.126 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 253 - 15.079 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 179 - 49.895 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 47 - 57.183 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 47 - 13.431 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 47 - 39.793 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : test2 or testt@gmail.com You Entered Is Already Registered and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 401 106 - 28.465 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 123 - 119.163 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 47 - 23.653 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 88.961 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 82.819 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 79.617 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 80.019 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 162.742 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 47 - 11.228 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 17.718 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 194.601 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 347.565 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 263.645 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 224.126 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 478.156 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 117 - 170.129 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : test5 or undefined You Entered Is Already Registered and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 401 100 - 9.846 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 167.731 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 221 - 34.854 ms[39m
+[35m[39m
