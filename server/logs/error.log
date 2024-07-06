@@ -21,3 +21,4 @@
  [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
  [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
  [31merror[39m: [31mError Message : Cannot find /api/login-google and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m

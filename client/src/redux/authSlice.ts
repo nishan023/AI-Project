@@ -6,6 +6,7 @@ const initialState = {
   userId: null,
   username: null,
   email: null,
+  gmailLogin: false,
 };
 
 export const authSlice = createSlice({
@@ -18,6 +19,7 @@ export const authSlice = createSlice({
       state.userId = action.payload._id;
       state.username = action.payload.username;
       state.email = action.payload.email;
+      state.gmailLogin = action.payload.gmailLogin;
     },
     logoutReducer: (state) => {
       state.isLoggedIn = false;
@@ -25,6 +27,7 @@ export const authSlice = createSlice({
       state.userId = null;
       state.username = null;
       state.email = null;
+      state.gmailLogin = false;
     },
   },
 });

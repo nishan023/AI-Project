@@ -2,8 +2,6 @@ import { Password, Visibility, VisibilityOff } from "@mui/icons-material";
 import { Button, IconButton, InputAdornment, TextField } from "@mui/material";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-
-import ForgotPassword from "../../pages/ForgotPassword";
 import { loginReq } from "../../services/Apis";
 import { useDispatch } from "react-redux";
 import { loginReducer } from "../../redux/authSlice";
@@ -36,8 +34,12 @@ const LoginInterface = () => {
           userId: userData.data._id,
           username: userData.data.username,
           email: userData.data.email,
+          gmailLogin : false
         })
       );
+
+      localStorage.setItem("access_token",userData.data.access_token);
+
       Swal.fire({
         title: "Success ",
         text: userData.message,
