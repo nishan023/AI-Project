@@ -8,6 +8,8 @@ import { logoutReducer } from "../../redux/authSlice";
 import Swal from "sweetalert2";
 import { userDataReq } from "../../services/Apis";
 import AuthContext from "../../services/AuthContext";
+import axios from "axios";
+import { Newspaper } from "@mui/icons-material";
 
 const WelcomePagetInterface = () => {
   const [data, setData] = useState(null);
@@ -15,9 +17,12 @@ const WelcomePagetInterface = () => {
   const {token,setToken} = useContext(AuthContext)
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
 
+
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
+  const userData = useSelector((state)=> state.auth)
+  console.log(userData)
   useEffect(() => {
     if (!isLoggedIn) {
       console.log(isLoggedIn)
@@ -26,12 +31,11 @@ const WelcomePagetInterface = () => {
         text: "User Logged Out",
         icon: "error",
         confirmButtonText: "OK",
-      }).then(navigate("/"))
+      }).then(()=>navigate("/"))
     }
-    const userData =  userDataReq(token);
-    console.log(userData);
-    console.log(token);
-  }, [isLoggedIn]);
+    
+  }, [isLoggedIn,navigate]);
+
 
 
   const logout=()=>{
@@ -44,7 +48,12 @@ const WelcomePagetInterface = () => {
     <div>
       <Button 
         variant="contained"
-        onClick={logout}>Logout</Button>
+        onClick={logout}>Logout
+      </Button>
+      <div className="text-gray-50">
+        <p>Username: {userData.username}</p>
+        <p>Email: {userData.email}</p>
+      </div>
     </div>
   );
 };

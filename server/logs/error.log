@@ -76,3 +76,7 @@
  [31merror[39m: [31mError Message : test5 or undefined You Entered Is Already Registered and Status Code : 401 [39m
  [31merror[39m: [31mError Message : Cannot find /api/auth/login-google and Status Code : 404 [39m
  [31merror[39m: [31mError Message : Cannot find /api/auth/login-google and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : No pem found for envelope: {"alg":"HS256","typ":"JWT"} and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : Unauthorised and Status Code : 401 [39m

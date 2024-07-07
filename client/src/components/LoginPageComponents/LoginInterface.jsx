@@ -28,6 +28,7 @@ const LoginInterface = () => {
 
     try {
       const userData = await loginReq(data);
+      console.log(userData,"username login data")
       dispatch(
         loginReducer({
           userId: userData.data._id,
