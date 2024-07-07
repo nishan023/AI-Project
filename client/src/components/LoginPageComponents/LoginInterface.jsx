@@ -30,13 +30,13 @@ const LoginInterface = () => {
       const userData = await loginReq(data);
       dispatch(
         loginReducer({
-          access_token: userData.data.access_token,
           userId: userData.data._id,
           username: userData.data.username,
           email: userData.data.email,
-          gmailLogin : false
         })
       );
+
+      console.log(userData.data.access_token)
 
       localStorage.setItem("access_token",userData.data.access_token);
 

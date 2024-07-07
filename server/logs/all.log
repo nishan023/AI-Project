@@ -1647,3 +1647,228 @@
 [35m[39m
  [35mhttp[39m: [35mGET /api/user/profile 200 221 - 34.854 ms[39m
 [35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 161.578 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.507 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 80.385 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.087 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.124 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.654 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 78.262 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.187 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.912 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.818 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 0.894 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/auth/login-google and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 404 82 - 2.485 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.096 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 86.475 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.130 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.068 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.779 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 101.947 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.414 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.717 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 92.460 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.163 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 1.052 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.227 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 96.714 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 83.188 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.398 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 66.632 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.101 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 96.476 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.328 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 134.302 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.271 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 0.774 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 324 - 191.023 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.242 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.166 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/auth/login-google and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login-google 404 82 - 3.139 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 324 - 210.752 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 324 - 3.685 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 324 - 202.899 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 86 - 189.707 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 468 - 177.166 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 468 - 196.678 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m

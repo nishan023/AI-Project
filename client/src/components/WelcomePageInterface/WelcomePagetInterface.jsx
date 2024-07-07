@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { commonRequest } from "../../services/ApiCall";
@@ -6,15 +6,15 @@ import { Button } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { logoutReducer } from "../../redux/authSlice";
 import Swal from "sweetalert2";
-import { Email } from "@mui/icons-material";
 import { userDataReq } from "../../services/Apis";
-
+import AuthContext from "../../services/AuthContext";
 
 const WelcomePagetInterface = () => {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
+  const {token,setToken} = useContext(AuthContext)
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
-  const gmailLogin = useSelector((state)=> state.auth.gmailLogin)
+
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -28,15 +28,15 @@ const WelcomePagetInterface = () => {
         confirmButtonText: "OK",
       }).then(navigate("/"))
     }
-    const token = localStorage.getItem("access_token")
-    const userData =  userDataReq();
-
+    const userData =  userDataReq(token);
+    console.log(userData);
+    console.log(token);
   }, [isLoggedIn]);
 
 
   const logout=()=>{
     dispatch(logoutReducer());
-    gmailLogin?localStorage.clear("google_access_token"):localStorage.clear("access_token");
+    localStorage.clear("access_token");
     navigate("/");
   }
 

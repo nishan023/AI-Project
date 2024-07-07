@@ -26,7 +26,7 @@ export const authenticateToken = async (
     );
 
   try {
-    const payload: JwtPayload | any = await jwt.verify(
+    const payload: JwtPayload | any = jwt.verify(
       authToken,
       envConfig.ACCESS_TOKEN as string
     );

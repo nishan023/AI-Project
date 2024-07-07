@@ -70,15 +70,13 @@ const RegistrationInterface = () => {
         const userData = await googleUserDataReq(token);
         dispatch(
           loginReducer({
-            access_token: userData.data.access_token,
             userId: userData.data._id,
             username: userData.data.username,
             email: userData.data.email,
-            gmailLogin: true
           })
         );
 
-        localStorage.setItem("google_access_token",userData)
+        localStorage.setItem("access_token",userData)
 
         Swal.fire({
           title: "Success ",

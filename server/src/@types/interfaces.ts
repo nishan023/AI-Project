@@ -47,6 +47,10 @@ export interface IloginResponse extends IUser {
   access_token: string;
 }
 
+export interface IgoogleLoginResponse extends IPayload{
+  picture: StrUnd;
+}
+
 export interface ILoginDto  {
   username: StrUnd;
   password:string;
