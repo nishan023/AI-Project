@@ -1,10 +1,13 @@
+import Footer from "../components/HomePageComponents/Footer";
+import Hero from "../components/HomePageComponents/Hero";
 import Nav from "../components/HomePageComponents/Nav";
 
 const HomePage=()=>{
     return(
         <>
         <Nav/>
-        <div>This is the home page</div>
+        <Hero/>
+        <Footer/>
         </>
     )
 }
