@@ -1314,3 +1314,23 @@
  [35mhttp[39m: [35mGET /api/auth/login-google 201 640 - 0.932 ms[39m
 >>>>>>>>> Temporary merge branch 2
 [35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 2.119 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Operation `gmailusers.findOne()` buffering timed out after 10000ms and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 500 122 - 10456.942 ms[39m
+[35m[39m
+ [31merror[39m: [31mDatabase connection error: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 0.233 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 0.194 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Operation `gmailusers.findOne()` buffering timed out after 10000ms and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 500 122 - 10008.355 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Operation `gmailusers.findOne()` buffering timed out after 10000ms and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 500 122 - 10005.378 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m

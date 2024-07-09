@@ -13,7 +13,6 @@ import { passwordStrength } from "check-password-strength";
 import { AuthServiceInterface } from "../implementation/auth.service.interface";
 import { HttpStatusCode } from "axios";
 import { NextFunction } from "express";
-
 import isEmail from "validator/lib/isEmail";
 import User from "../../database/models/User";
 import AppError from "../../utils/errorUtils/appError";

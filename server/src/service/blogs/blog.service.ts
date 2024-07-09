@@ -8,7 +8,6 @@ import {
 import Blog from "../../database/models/Blog";
 import User from "../../database/models/User";
 import AppError from "../../utils/errorUtils/appError";
-import { GenAiService } from "../genAi/genai.service";
 
 export class BlogService {
   public static async CreateBlog(
@@ -48,11 +47,6 @@ export class BlogService {
 
     const message = `${userPayload?.username} Has Posted A blog With ${createPost.title} `;
     return message;
-  }
-
-  private async checkGrammer(text: string) {
-    const content = await GenAiService.checkGrammar(text);
-    return content;
   }
 
   public static async deleteBlog(userId: string | number, blogId: string) {
