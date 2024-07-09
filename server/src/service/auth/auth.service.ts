@@ -5,7 +5,8 @@ import {
   IRegisterDto,
   IResetPasswordDto,
   IUser,
-  IloginResponse,
+  IGoogleLoginResponse,
+  ILoginResponse,
 } from "../../@types/interfaces";
 import { JsonWebTokenUtils } from "../jwt.service";
 import { passwordStrength } from "check-password-strength";
@@ -22,15 +23,16 @@ import makeRandomString from "../../utils/randomUtils/randomString";
 import { sendEmail } from "../../helpers/sendEmail";
 import envConfig from "../../config/env.config";
 import { htmlEmail, textEmail } from "../../utils/randomUtils/mailContent";
-import { OAuth2Client} from "google-auth-library";
+import { OAuth2Client } from "google-auth-library";
+import GmailUser from "../../database/models/GmailUsers";
 
 const googleClient = new OAuth2Client(envConfig.GOOGLE_CLIENT_ID);
 
-export async function verifyGoogleToken(token:string) {
+export async function verifyGoogleToken(token: string) {
   const ticket = await googleClient.verifyIdToken({
-    idToken:token,
-    audience:envConfig.GOOGLE_CLIENT_ID
-  })
+    idToken: token,
+    audience: envConfig.GOOGLE_CLIENT_ID,
+  });
 
   return ticket.getPayload();
 }
@@ -80,13 +82,15 @@ export class AuthService implements AuthServiceInterface {
   public static async loginUser({
     username,
     password,
-  }: ILoginDto): Promise<Partial<IloginResponse>> {
+  }: ILoginDto): Promise<Partial<ILoginResponse>> {
     const checkUser = await User.findOne({
       username: username,
     }).countDocuments();
     if (checkUser.toString().startsWith("0"))
       throw new AppError(`Username Does Not Exists`, 401);
+
     const user = await User.findOne({ username: username });
+
     if (user?.get("password") === null || undefined)
       throw new AppError(`Password Field is Empty`, 401);
 
@@ -113,7 +117,7 @@ export class AuthService implements AuthServiceInterface {
         `Token is Empty, Cannot Return An Appopriate Token`,
         HttpStatusCode.BadRequest
       );
-    const LoginResponse: Partial<IloginResponse> = {
+    const LoginResponse: Partial<ILoginResponse> = {
       _id: user?.id,
       username: user?.username,
       email: user?.email,
@@ -122,9 +126,46 @@ export class AuthService implements AuthServiceInterface {
     return LoginResponse;
   }
 
-  public static async loginGmail(token: string){
-      const userData = await verifyGoogleToken(token);
-      return userData;
+  public static async loginGmail(token: string) {
+    const userData = await verifyGoogleToken(token);
+    const isUser = await GmailUser.findOne({ gMail: userData?.email });
+    if (isUser?.get("gMail") == null || undefined) {
+      const gUser = new GmailUser({
+        gMail: userData?.email,
+        image: userData?.picture,
+        username: userData?.name,
+        isActive: true,
+      });
+
+      await gUser.save();
+    }
+
+    const user = await GmailUser.findOne({ gMail: userData?.email });
+
+    const userPayload: IPayload = {
+      email: user?.gMail,
+      userId: user?._id,
+      username: user?.username,
+    };
+
+    const access_token = await JsonWebTokenUtils.createAccessToken(userPayload);
+    if (
+      access_token.split(" ").length === 0 ||
+      access_token.toString().startsWith("0")
+    )
+      throw new AppError(
+        `Token is Empty, Cannot Return An Appopriate Token`,
+        HttpStatusCode.BadRequest
+      );
+
+    const LoginResponse: Partial<ILoginResponse> = {
+      _id: user?.id,
+      username: user?.username,
+      email: user?.gMail,
+      access_token: access_token,
+    };
+
+    return LoginResponse;
   }
   public static async forgetPassoword({ email }: IForgetPasswordDto) {
     const checkEmail = isEmail(email);

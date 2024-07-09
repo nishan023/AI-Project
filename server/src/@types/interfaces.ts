@@ -61,7 +61,7 @@ export interface ICommentDto {
 
 export interface IUpdatePostDto extends ICreatePostDto {}
 
-export interface IloginResponse extends IUser {
+export interface ILoginResponse extends IUser {
   access_token: string;
 }
 
@@ -79,4 +79,13 @@ export interface IVoteInterface {
   userId: string | number;
   blogId: string | number;
   vote_status: string | any;
+}
+
+export interface IGoogleLoginResponse extends IPayload {
+  picture: StrUnd;
+}
+
+export interface ILoginDto {
+  username: StrUnd;
+  password: string;
 }

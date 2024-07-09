@@ -18,7 +18,9 @@ export const googleUserDataReq = async (token)=>{
 }
 
 export const userDataReq= async(token)=>{
-  return await commonRequest("GET",`${BACKEND_URL}/user/profile`,null,{'Authorization': `Bearer ${token}`})
+  return await commonRequest("GET",`${BACKEND_URL}/api/user/profile`,null,{
+    Authorization: token,
+  })
 }
 
 export const forgetPasswordReq = async (data) => {

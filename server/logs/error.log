@@ -13,6 +13,7 @@
  [31merror[39m: [31mError Message : Email Does Not Exists,  Please Enter A valid Email and Status Code : 401 [39m
  [31merror[39m: [31mError Message : The Password Match With Your Old Password, Please Enter Strong Password and Status Code : 401 [39m
  [31merror[39m: [31mError Message : Too weak, Please Enter A Strong Password and Status Code : 401 [39m
+<<<<<<<<< Temporary merge branch 1
  [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
  [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
  [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
@@ -63,19 +64,7 @@
  [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
  [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
  [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
- [31merror[39m: [31mDatabase connection error: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
- [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
- [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
- [31merror[39m: [31mError Message : Your Account Is Deactivated and Status Code : 403 [39m
- [31merror[39m: [31mError Message : Your Account Is Deactivated and Status Code : 403 [39m
- [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
- [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
- [31merror[39m: [31mError Message : Every Field Is Empty and Status Code : 401 [39m
- [31merror[39m: [31mError Message : Blog validation failed: user: User Field Cannot Be Empty, tags: Tags must be a non-empty array and Status Code : 500 [39m
- [31merror[39m: [31mError Message : Blog validation failed: user: User Field Cannot Be Empty and Status Code : 500 [39m
- [31merror[39m: [31mError Message : Cannot find /api/blog/6686ac130167ee7a82b5b032 and Status Code : 404 [39m
- [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
- [31merror[39m: [31mError Message : Cannot find /api/blog and Status Code : 404 [39m
+=========
  [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
  [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
  [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
@@ -84,18 +73,4 @@
  [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
  [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
  [31merror[39m: [31mError Message : Cannot find /api/login-google and Status Code : 404 [39m
- [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
- [31merror[39m: [31mError Message : Blog Does not Exists and Status Code : 401 [39m
- [31merror[39m: [31mError Message : Cannot find /api/blog and Status Code : 404 [39m
- [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
- [31merror[39m: [31mError Message : Cannot find /api/blog and Status Code : 404 [39m
- [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
- [31merror[39m: [31mError Message : invalid token and Status Code : 500 [39m
- [31merror[39m: [31mError Message : There is nothing to Update and Status Code : 401 [39m
- [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
- [31merror[39m: [31mError Message : Blog Does not Exists and Status Code : 401 [39m
- [31merror[39m: [31mError Message : jwt malformed and Status Code : 500 [39m
- [31merror[39m: [31mError Message : jwt malformed and Status Code : 500 [39m
- [31merror[39m: [31mError Message : Your Account Is Deactivated and Status Code : 403 [39m
- [31merror[39m: [31mError Message : Your Account Is Deactivated and Status Code : 403 [39m
- [31merror[39m: [31mDatabase connection error: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+>>>>>>>>> Temporary merge branch 2

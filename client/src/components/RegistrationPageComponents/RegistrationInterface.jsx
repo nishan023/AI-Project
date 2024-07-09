@@ -1,4 +1,4 @@
-import { Visibility, VisibilityOff } from "@mui/icons-material";
+import { LocalActivity, Visibility, VisibilityOff } from "@mui/icons-material";
 import { Button, IconButton, InputAdornment, TextField } from "@mui/material";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
@@ -70,12 +70,14 @@ const RegistrationInterface = () => {
         const userData = await googleUserDataReq(token);
         dispatch(
           loginReducer({
-            access_token: userData.data.access_token,
             userId: userData.data._id,
             username: userData.data.username,
             email: userData.data.email,
           })
         );
+
+        localStorage.setItem("access_token",userData)
+
         Swal.fire({
           title: "Success ",
           text: userData.message,

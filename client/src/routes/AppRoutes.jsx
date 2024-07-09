@@ -9,7 +9,7 @@ import WelcomePage from "../pages/WelcomePage";
 import ResetPassword from "../pages/ResetPasswordPage";
 
 const AppRoutes = () => {
-  return (
+  return ( 
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />

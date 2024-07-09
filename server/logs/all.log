@@ -775,7 +775,8 @@
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 1.571 ms[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 18.568 ms[39m
 [35m[39m
  [35mhttp[39m: [35mGET /api/auth/login-google 201 641 - 1689.839 ms[39m
 [35m[39m
@@ -812,14 +813,37 @@
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
- [31merror[39m: [31mError Message : Cannot find /api/blog and Status Code : 404 [39m
- [35mhttp[39m: [35mGET /api/blog 404 69 - 5.823 ms[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/profile/deactivate and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/profile/deactivate 404 88 - 8.886 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 102 - 3.944 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 102 - 2.255 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 102 - 1.759 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 102 - 1.689 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'id') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 102 - 1.822 ms[39m
+=========
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 117 - 211.062 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 117 - 74.442 ms[39m
+>>>>>>>>> Temporary merge branch 2
 [35m[39m
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
- [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
- [35mhttp[39m: [35mGET /api/blog 403 79 - 4.684 ms[39m
+<<<<<<<<< Temporary merge branch 1
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 500 106 - 7.446 ms[39m
 [35m[39m
  [35mhttp[39m: [35mGET /api/blog 201 66 - 43.371 ms[39m
 [35m[39m
@@ -892,28 +916,71 @@
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 36.868 ms[39m
+=========
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mServer running on port 5001...[39m
- [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mServer running on port 5001...[39m
- [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mServer running on port 5001...[39m
- [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mServer running on port 5001...[39m
- [35mhttp[39m: [35mInitialized db connection[39m
- [31merror[39m: [31mError Message : Cannot find /api/blog and Status Code : 404 [39m
- [35mhttp[39m: [35mPATCH /api/blog 404 69 - 4.767 ms[39m
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 117 - 93.447 ms[39m
 [35m[39m
- [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
- [35mhttp[39m: [35mPATCH /api/blog/6686c31eac5218335143a549 403 79 - 2.584 ms[39m
+ [31merror[39m: [31mError Message : User validation failed: email: Email  Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 500 117 - 66.454 ms[39m
 [35m[39m
- [35mhttp[39m: [35mPOST /api/auth/login 201 465 - 109.125 ms[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 0.617 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 123 - 99.239 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : admin or undefined You Entered Is Already Registered and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/register 401 100 - 25.304 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 86.279 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.138 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 68.635 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile 404 73 - 2.862 ms[39m
+>>>>>>>>> Temporary merge branch 2
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 33.076 ms[39m
+=========
+ [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /user/profile 404 73 - 2.818 ms[39m
+>>>>>>>>> Temporary merge branch 2
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 200 61 - 42.076 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 16.247 ms[39m
+=========
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 88.355 ms[39m
+>>>>>>>>> Temporary merge branch 2
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 32.758 ms[39m
 [35m[39m
  [31merror[39m: [31mError Message : invalid token and Status Code : 500 [39m
  [35mhttp[39m: [35mPATCH /api/blog/6686c31eac5218335143a549 500 73 - 2.002 ms[39m
@@ -923,6 +990,14 @@
 [35m[39m
  [35mhttp[39m: [35mPATCH /api/blog/6686c31eac5218335143a549 201 102 - 18.721 ms[39m
 [35m[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 200 61 - 17.975 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/user/profile/reactivate 400 45 - 8.252 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 20.302 ms[39m
+[35m[39m
+=========
+>>>>>>>>> Temporary merge branch 2
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
@@ -943,8 +1018,14 @@
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
- [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
- [35mhttp[39m: [35mPATCH /api/blog/6686c31eac5218335143a549/vote?vote=upvote 403 79 - 5.104 ms[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 400 50 - 28.079 ms[39m
 [35m[39m
  [35mhttp[39m: [35mPOST /api/auth/login 201 465 - 111.322 ms[39m
 [35m[39m
@@ -961,6 +1042,9 @@
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 27 - 43.824 ms[39m
+[35m[39m
+=========
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
@@ -970,6 +1054,7 @@
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
+>>>>>>>>> Temporary merge branch 2
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
@@ -979,31 +1064,114 @@
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mPOST /api/auth/login 201 465 - 187.551 ms[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 39 - 46.019 ms[39m
 [35m[39m
  [35mhttp[39m: [35mPOST /api/blog 201 123 - 3637.974 ms[39m
 [35m[39m
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
- [35mhttp[39m: [35mPOST /api/auth/login 201 465 - 165.755 ms[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 123.435 ms[39m
 [35m[39m
  [35mhttp[39m: [35mPOST /api/blog 201 125 - 28.067 ms[39m
 [35m[39m
  [35mhttp[39m: [35mGET /api/blog 201 1041 - 20.322 ms[39m
 [35m[39m
- [35mhttp[39m: [35mGET /api/blog/6686c6dd30fdb051b21d9d27 201 315 - 8.560 ms[39m
+=========
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+>>>>>>>>> Temporary merge branch 2
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 200.868 ms[39m
 [35m[39m
- [31merror[39m: [31mError Message : Blog Does not Exists and Status Code : 401 [39m
- [35mhttp[39m: [35mDELETE /api/blog/6686ac130167ee7a82b5b032 401 68 - 15.503 ms[39m
+=========
+>>>>>>>>> Temporary merge branch 2
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 127.988 ms[39m
 [35m[39m
- [35mhttp[39m: [35mDELETE /api/blog/6686c31eac5218335143a549 201 119 - 10.192 ms[39m
+=========
+>>>>>>>>> Temporary merge branch 2
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 111.316 ms[39m
 [35m[39m
  [35mhttp[39m: [35mPATCH /api/blog/6686c6dd30fdb051b21d9d27 201 117 - 11.247 ms[39m
 [35m[39m
- [35mhttp[39m: [35mPATCH /api/blog/6686c6dd30fdb051b21d9d27/vote?vote=downvote 201 115 - 14.395 ms[39m
+=========
+>>>>>>>>> Temporary merge branch 2
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mPOST /api/auth/login 201 451 - 180.548 ms[39m
 [35m[39m
- [35mhttp[39m: [35mPATCH /api/blog/6686c6dd30fdb051b21d9d27/vote?vote=upvote 201 113 - 13.282 ms[39m
+=========
+>>>>>>>>> Temporary merge branch 2
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mGET /api/user/profile 200 253 - 35.316 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 204 - - 24.738 ms[39m
 [35m[39m
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
@@ -1021,11 +1189,35 @@
  [31merror[39m: [31mError Message : jwt malformed and Status Code : 500 [39m
  [35mhttp[39m: [35mGET /api/user/profile 500 73 - 8.188 ms[39m
 [35m[39m
- [35mhttp[39m: [35mGET /api/user/profile 200 325 - 66.341 ms[39m
+=========
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+>>>>>>>>> Temporary merge branch 2
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 47 - 57.183 ms[39m
 [35m[39m
  [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 47 - 27.130 ms[39m
 [35m[39m
- [35mhttp[39m: [35mDELETE /api/user/profile/deactivate 203 42 - 22.842 ms[39m
+=========
+>>>>>>>>> Temporary merge branch 2
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [35mhttp[39m: [35mPATCH /api/user/profile/updateusername 200 47 - 39.793 ms[39m
 [35m[39m
  [31merror[39m: [31mError Message : Your Account Is Deactivated and Status Code : 403 [39m
  [35mhttp[39m: [35mGET /api/user/profile 403 75 - 10.010 ms[39m
@@ -1047,8 +1239,78 @@
 [35m[39m
  [35mhttp[39m: [35mPATCH /api/blog/6686c6dd30fdb051b21d9d27/vote?vote=upvote 201 113 - 24.574 ms[39m
 [35m[39m
- [35mhttp[39m: [35mPATCH /api/blog/6686c6dd30fdb051b21d9d27/vote?vote=downvote 201 115 - 24.563 ms[39m
+=========
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+>>>>>>>>> Temporary merge branch 2
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+<<<<<<<<< Temporary merge branch 1
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 17.718 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 194.601 ms[39m
 [35m[39m
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
- [31merror[39m: [31mDatabase connection error: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 347.565 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 263.645 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 224.126 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 456 - 478.156 ms[39m
+=========
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 1.665 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 640 - 631.014 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 0.171 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 640 - 0.814 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/login-google and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /api/login-google 404 77 - 1.535 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 640 - 0.932 ms[39m
+>>>>>>>>> Temporary merge branch 2
+[35m[39m

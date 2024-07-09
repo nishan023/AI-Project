@@ -1,32 +1,59 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { commonRequest } from "../../services/ApiCall";
 import { Button } from "@mui/material";
+import { useDispatch } from "react-redux";
+import { logoutReducer } from "../../redux/authSlice";
+import Swal from "sweetalert2";
+import { userDataReq } from "../../services/Apis";
+import AuthContext from "../../services/AuthContext";
+import axios from "axios";
+import { Newspaper } from "@mui/icons-material";
 
 const WelcomePagetInterface = () => {
+  const [data, setData] = useState(null);
+  const [error, setError] = useState(null);
+  const {token,setToken} = useContext(AuthContext)
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
+
+
+  const dispatch = useDispatch();
   const navigate = useNavigate();
-  const userData = {
-    username,
-    email,
-  }
+
+  const userData = useSelector((state)=> state.auth)
+  console.log(userData)
   useEffect(() => {
     if (!isLoggedIn) {
       console.log(isLoggedIn)
-      navigate("/");
+      Swal.fire({
+        title: "Error ",
+        text: "User Logged Out",
+        icon: "error",
+        confirmButtonText: "OK",
+      }).then(()=>navigate("/"))
     }
-    userData = requestUserData();
-  }, [isLoggedIn]);
+    
+  }, [isLoggedIn,navigate]);
 
-  const requestUserData= async()=>{
-      const userData = await commonRequest("GET",null,null,null);
-      return userData;
+
+
+  const logout=()=>{
+    dispatch(logoutReducer());
+    localStorage.clear("access_token");
+    navigate("/");
   }
+
   return (
     <div>
-      <h1>{userData}</h1>
-      <Button onClick={lo}>Logout</Button>
+      <Button 
+        variant="contained"
+        onClick={logout}>Logout
+      </Button>
+      <div className="text-gray-50">
+        <p>Username: {userData.username}</p>
+        <p>Email: {userData.email}</p>
+      </div>
     </div>
   );
 };
