@@ -18,4 +18,32 @@ blogRouter.delete(
   BlogController.deleteBlog
 );
 
+blogRouter.get(
+  "/blog",
+  authenticateToken,
+  checkisActive,
+  BlogController.getAllBlog
+);
+
+blogRouter.get(
+  "/blog/:blogId",
+  authenticateToken,
+  checkisActive,
+  BlogController.getBlogById
+);
+
+blogRouter.patch(
+  "/blog/:blogId",
+  authenticateToken,
+  checkisActive,
+  BlogController.updateBlog
+);
+
+blogRouter.patch(
+  "/blog/:blogId/vote",
+  authenticateToken,
+  checkisActive,
+  BlogController.voteBlog
+);
+
 export default blogRouter;

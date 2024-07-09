@@ -84,3 +84,18 @@
  [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
  [31merror[39m: [31mError Message : Cannot find /user/profile and Status Code : 404 [39m
  [31merror[39m: [31mError Message : Cannot find /api/login-google and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Blog Does not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Cannot find /api/blog and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : Cannot find /api/blog and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : invalid token and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : There is nothing to Update and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : Blog Does not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : jwt malformed and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : jwt malformed and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Your Account Is Deactivated and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : Your Account Is Deactivated and Status Code : 403 [39m
+ [31merror[39m: [31mDatabase connection error: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m

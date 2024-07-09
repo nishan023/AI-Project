@@ -20,6 +20,7 @@ export const authenticateToken = async (
 ) => {
   try {
     const authToken = req.headers["authorization"];
+    console.log(authToken);
     if (!authToken)
       throw new AppError(
         `Authentication Token is Missing`,

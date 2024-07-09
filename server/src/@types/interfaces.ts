@@ -49,11 +49,34 @@ export interface ICreatePostDto {
   tags?: [string];
 }
 
+export interface IRequestObjectUpdate {
+  userId: string | number;
+  blogId: string | number;
+  UpdatePostDto: any;
+}
+
+export interface ICommentDto {
+  comment: string | undefined;
+}
+
+export interface IUpdatePostDto extends ICreatePostDto {}
+
 export interface IloginResponse extends IUser {
   access_token: string;
 }
 
-export interface ILoginDto  {
+export enum voteEnums {
+  UPVOTE = "upvote",
+  DOWNVOTE = "downvote",
+}
+
+export interface ILoginDto {
   username: StrUnd;
-  password:string;
+  password: string;
+}
+
+export interface IVoteInterface {
+  userId: string | number;
+  blogId: string | number;
+  vote_status: string | any;
 }
