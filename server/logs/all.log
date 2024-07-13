@@ -1334,3 +1334,29 @@
 [35m[39m
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.926 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 111.911 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.221 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 126.178 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.423 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.199 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 1871 - 56.522 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 1871 - 19.817 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 1871 - 17.816 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 1871 - 34.817 ms[39m
+[35m[39m
