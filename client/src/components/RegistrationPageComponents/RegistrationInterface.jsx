@@ -83,7 +83,7 @@ const RegistrationInterface = () => {
           text: userData.message,
           icon: "success",
           confirmButtonText: "OK",
-        }).then(() => navigate("/welcome-page"));
+        }).then(() => navigate("/home"));
       } catch (err) {
         Swal.fire({
           title: "Error ",

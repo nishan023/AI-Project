@@ -9,8 +9,6 @@ import AuthContext from "../services/AuthContext";
 
 
 const WelcomePage = () => {
-  const [data, setData] = useState(null);
-  const [error, setError] = useState(null);
   const {token,setToken} = useContext(AuthContext)
   const isLoggedIn = useSelector((state) => state.auth.isLoggedIn);
 
@@ -42,12 +40,12 @@ const WelcomePage = () => {
   }
 
   return (
-    <div>
+    <div className="bg-slate-500 w-full h-[2000px]">
       <Button 
         variant="contained"
         onClick={logout}>Logout
       </Button>
-      <div className="text-gray-50">
+      <div className="text-black">
         <p>Username: {userData.username}</p>
         <p>Email: {userData.email}</p>
       </div>
