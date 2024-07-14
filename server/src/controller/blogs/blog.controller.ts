@@ -1,6 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import {
   ICreatePostDto,
+  IQueryTag,
   IRequestObjectUpdate,
   IUpdatePostDto,
   IVoteInterface,
@@ -8,8 +9,7 @@ import {
 } from "../../@types/interfaces";
 import { BlogService } from "../../service/blogs/blog.service";
 import { sendResposne } from "../../helpers/send-Response";
-import { TargetTypeEnum } from "inversify";
-import { unknown } from "zod";
+import { send } from "node:process";
 
 export class BlogController {
   public static async createBlog(
@@ -110,6 +110,20 @@ export class BlogController {
       };
       const data: any = await BlogService.voteBlog(requestObject);
       return sendResposne(res, 201, "Vote Updated SuccessFully", data);
+    } catch (err) {
+      next(err);
+    }
+  }
+
+  public static async getBlogByTag(
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) {
+    try {
+      const tag = req.query.tags;
+      const data: any = await BlogService.getBlogByTag(tag);
+      return sendResposne(res, 201, "Tag Blogs", data);
     } catch (err) {
       next(err);
     }

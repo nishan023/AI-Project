@@ -1,3 +1,4 @@
+import { appendFile } from "node:fs";
 import { ICommentDto } from "../../@types/interfaces";
 import Blog from "../../database/models/Blog";
 import Comment from "../../database/models/Comment";
@@ -11,6 +12,7 @@ export class CommentService {
     CommentDto: ICommentDto
   ) {
     const user = await User.findOne({ _id: userId });
+
     if (!user) throw new AppError("User is Expired Or Does not exists", 403);
     let createContent: Partial<ICommentDto> = {};
     if (CommentDto.comment !== undefined) {
@@ -38,5 +40,24 @@ export class CommentService {
 
     const message = `${user.username} Has Commented SuccessFully`;
     return message;
+  }
+
+  public static async getAllComment(
+    userId: string | number,
+    blogId: string | number
+  ) {
+    const user = await User.findOne({ _id: userId });
+    if (!user) {
+      throw new AppError("User not found", 401);
+    }
+    const allBlog = await Blog.findOne({ _id: blogId }).populate({
+      path: "comments",
+    });
+
+    const data = Array.isArray(allBlog?.comments) ? allBlog.comments : [];
+    if (data.length.toString().startsWith("0")) {
+      throw new AppError("Comment is not available for this posts", 402);
+    }
+    return data;
   }
 }

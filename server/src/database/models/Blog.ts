@@ -17,10 +17,10 @@ const blogSchema = new mongoose.Schema(
     tags: {
       type: [String],
       validate: {
-        validator: function (v: any) {
-          return Array.isArray(v) && v.length > 0;
+        validator: function (val: any) {
+          return val.length <= 10;
         },
-        message: "Tags must be a non-empty array",
+        message: "{PATH} exceeds the limit of 10",
       },
     },
     upvote: {

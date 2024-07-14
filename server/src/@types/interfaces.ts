@@ -46,7 +46,7 @@ export interface IForgetPasswordDto {
 export interface ICreatePostDto {
   title: string;
   content: string;
-  tags?: [string];
+  tags?: [string] | any;
 }
 
 export interface IRequestObjectUpdate {
@@ -88,4 +88,10 @@ export interface IGoogleLoginResponse extends IPayload {
 export interface ILoginDto {
   username: StrUnd;
   password: string;
+}
+
+export interface IQueryTag {
+  tag1?: string | number | any;
+  tag2?: string | number | any;
+  userId: string | number;
 }

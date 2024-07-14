@@ -78,3 +78,85 @@
  [31merror[39m: [31mDatabase connection error: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
  [31merror[39m: [31mError Message : Operation `gmailusers.findOne()` buffering timed out after 10000ms and Status Code : 500 [39m
  [31merror[39m: [31mError Message : Operation `gmailusers.findOne()` buffering timed out after 10000ms and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017 and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017 and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017 and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017 and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : createPostDto.tags.split is not a function and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tags" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "tag" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : invalid signature and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Blog validation failed: title: Title Field Cannot Be Empty, content: Content Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : createPostDto.tags.split is not a function and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : createPostDto.tags.split is not a function and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : createPostDto.tags.split is not a function and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Blog validation failed: tags.0: Cast to [string] failed for value "[\n' +[39m
+[31m  "  { id: 'coding', text: 'coding', className: '' },\n" +[39m
+[31m  "  { id: 'gaming', text: 'gaming', className: '' }\n" +[39m
+[31m  ']" (type string) at path "tags.0" because of "CastError" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Blog validation failed: title: Title Field Cannot Be Empty, content: Content Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Blog validation failed: title: Title Field Cannot Be Empty, content: Content Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Blog validation failed: title: Title Field Cannot Be Empty, content: Content Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Blog validation failed: title: Title Field Cannot Be Empty, content: Content Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Blog validation failed: title: Title Field Cannot Be Empty, content: Content Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Blog validation failed: title: Title Field Cannot Be Empty, content: Content Field Cannot Be Empty and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cannot find /api.blog and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cast to ObjectId failed for value "undefined" (type string) at path "_id" for model "Blog" and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : No Blog Found and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : No Blog Found and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : No Blog Found and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : No Blog Found and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : No Blog Found and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : No Blog Found and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : No Blog Found and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Wrong recipient, payload audience != requiredAudience and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Wrong recipient, payload audience != requiredAudience and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Wrong recipient, payload audience != requiredAudience and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Wrong recipient, payload audience != requiredAudience and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : There are no blog with the tag and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : There are no blog with the tag and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : There are no blog with the tag and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : There are no blog with the tag and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : There are no blog with the tag and Status Code : 401 [39m

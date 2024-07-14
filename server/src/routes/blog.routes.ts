@@ -46,4 +46,11 @@ blogRouter.patch(
   BlogController.voteBlog
 );
 
+blogRouter.get(
+  "/tags",
+  authenticateToken,
+  checkisActive,
+  BlogController.getBlogByTag
+);
+
 export default blogRouter;

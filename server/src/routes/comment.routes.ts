@@ -11,4 +11,11 @@ commentRouter.post(
   CommentController.createContent
 );
 
+commentRouter.get(
+  "/blog/comment/:id",
+  authenticateToken,
+  checkisActive,
+  CommentController.getAllContent
+);
+
 export default commentRouter;

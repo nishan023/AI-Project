@@ -11,7 +11,7 @@ export class CommentController {
     next: NextFunction
   ): Promise<any> {
     try {
-      const userId = req.user.user_id;
+      const userId = req.user.userId;
       const blogId = typeof req.params.id === "string" ? req.params.id : null;
       const CommentDto: ICommentDto = req.body;
       if (Object.entries(CommentDto).length === 0) {
@@ -33,6 +33,21 @@ export class CommentController {
       return res.status(err.message).json({
         message: err.message,
       });
+    }
+  }
+
+  public static async getAllContent(
+    req: Request,
+    res: Response,
+    next: NextFunction
+  ) {
+    try {
+      const userId = req.user.userId;
+      const blogId = req.params.blogId;
+      const data: any = await CommentService.getAllComment(userId, blogId);
+      return sendResposne(res, 201, "Comment SuccessFully", data``);
+    } catch (err) {
+      next(err);
     }
   }
 }

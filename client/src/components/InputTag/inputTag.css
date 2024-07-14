@@ -1,0 +1,15 @@
+.ReactTags__selected {
+  @apply flex flex-wrap;
+}
+
+.ReactTags__tagInput input.ReactTags__tagInputField {
+  @apply bg-gray-50 border w-full border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5;
+}
+
+.ReactTags__selected span.ReactTags__tag {
+  @apply bg-keppel-500 text-keppel-800 text-sm font-medium me-2 pl-2.5 pr-8 py-1 rounded mb-2 relative max-w-64 text-nowrap overflow-hidden text-ellipsis;
+}
+
+.ReactTags__remove {
+  @apply absolute right-2 p-1 ms-2 text-sm text-keppel-400 rounded-sm hover:bg-keppel-400 hover:text-keppel-900;
+}

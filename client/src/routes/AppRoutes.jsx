@@ -7,9 +7,11 @@ import LoginPage from "../pages/LoginPage";
 import ForgotPassword from "../pages/ForgotPassword";
 import WelcomePage from "../pages/WelcomePage";
 import ResetPassword from "../pages/ResetPasswordPage";
+import EditBlog from "../pages/EditBlog";
+import Dashboard from "../pages/Dashboard";
 
 const AppRoutes = () => {
-  return ( 
+  return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -18,6 +20,8 @@ const AppRoutes = () => {
         <Route path="/reset-password" element={<ForgotPassword />} />
         <Route path="/welcome-page" element={<WelcomePage />} />
         <Route path="/reset-password/:id/:token" element={<ResetPassword />} />
+        <Route path="/blogs" element={<EditBlog />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>

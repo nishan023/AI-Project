@@ -1,5 +1,6 @@
 import {
   ICreatePostDto,
+  IQueryTag,
   IRequestObjectUpdate,
   IUpdatePostDto,
   IUser,
@@ -7,6 +8,7 @@ import {
 } from "../../@types/interfaces";
 import Blog from "../../database/models/Blog";
 import User from "../../database/models/User";
+import App from "../../server";
 import AppError from "../../utils/errorUtils/appError";
 
 export class BlogService {
@@ -14,6 +16,7 @@ export class BlogService {
     userId: string | number,
     createPostDto: ICreatePostDto
   ): Promise<ICreatePostDto | string> {
+    console.log(createPostDto);
     const user = await User.findOne({ _id: userId }).countDocuments();
     if (user.toString().startsWith("0"))
       throw new AppError("User not found", 401);
@@ -27,10 +30,20 @@ export class BlogService {
       title,
       content,
     };
-    if (createPostDto.tags !== undefined) {
-      partialPost.tags = createPostDto.tags;
-    }
 
+    let tagsArray;
+
+    if (createPostDto.tags !== undefined) {
+      tagsArray = createPostDto.tags.map((tag: any) => tag.text);
+      console.log(tagsArray);
+      if (tagsArray.length > 10) {
+        throw new AppError(
+          "Tags must be comma-separated and a maximum of 10 tags are allowed.",
+          400
+        );
+      }
+      partialPost.tags = tagsArray;
+    }
     const createPost = await Blog.create({
       ...partialPost,
       user: userPayload?._id,
@@ -72,9 +85,23 @@ export class BlogService {
   }
 
   public static async getAllBlog(userId: string | number) {
+    const blogContent = await Blog.find({})
+      .populate({ path: "user" })
+      .populate({ path: "comments" });
+    if (!blogContent || blogContent.length === 0) {
+      throw new AppError("No Blog Found", 401);
+    }
+    return blogContent;
+  }
+
+  public static async getBlogById(
+    userId: string | number,
+    blogId: string | number
+  ) {
     const user = await User.findOne({ _id: userId }).populate({
       path: "blogs",
     });
+
     if (!user) throw new AppError("User not found", 401);
     const userBlogContent = Array.isArray(user.blogs) ? user.blogs : null;
     if (userBlogContent === null) {
@@ -84,17 +111,6 @@ export class BlogService {
       throw new AppError(`${user.username} Has not Posted Any Blogs`, 401);
     }
     return userBlogContent;
-  }
-
-  public static async getBlogById(
-    userId: string | number,
-    blogId: string | number
-  ) {
-    const user = await User.findOne({ _id: userId });
-    if (!user) throw new AppError(`User is not available `, 401);
-    const blog = await Blog.findOne({ _id: blogId });
-    if (!blog) throw new AppError("Blog does not exists", 401);
-    return blog;
   }
 
   public static async updateBlog({
@@ -190,5 +206,13 @@ export class BlogService {
     }
 
     return `${user.username} Has SuccessFully ${vote_status}`;
+  }
+
+  public static async getBlogByTag(tag: any) {
+    const data = await Blog.find({ tags: { $in: [tag] } });
+    if (data.length === 0 || data.length.toString().startsWith("0")) {
+      throw new AppError("There are no blog with the tag", 401);
+    }
+    return data;
   }
 }
