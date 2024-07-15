@@ -9,6 +9,8 @@ import WelcomePage from "../pages/WelcomePage";
 import ResetPassword from "../pages/ResetPasswordPage";
 import EditBlog from "../pages/EditBlog";
 import Dashboard from "../pages/Dashboard";
+import Interview from "@/pages/Interview";
+import StartInterview from "@/pages/StartInterview";
 
 const AppRoutes = () => {
   return (
@@ -22,6 +24,11 @@ const AppRoutes = () => {
         <Route path="/reset-password/:id/:token" element={<ResetPassword />} />
         <Route path="/blogs" element={<EditBlog />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard/interview/:mockId" element={<Interview />} />
+        <Route
+          path="/dashboard/interview/:mockId/start"
+          element={<StartInterview />}
+        />
         <Route path="/*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>

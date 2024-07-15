@@ -1,36 +1,35 @@
 import mongoose from "mongoose";
-import { nullable, string } from "zod";
 import { FieldCannotBeEmpty } from "../../helpers/fieldSchema";
 
 const mockInterviewSchema = new mongoose.Schema(
   {
     jsonMockResp: {
-      type: string,
+      type: mongoose.Schema.Types.Mixed,
       required: [true, FieldCannotBeEmpty("Json Mock Response")],
     },
 
     jobPosition: {
-      type: string,
+      type: String,
       required: [true, FieldCannotBeEmpty("Job Position")],
     },
 
     jobDesc: {
-      type: string,
+      type: String,
       required: [true, FieldCannotBeEmpty("Job Description")],
     },
     jobExperience: {
-      type: string,
+      type: String,
       required: [true, FieldCannotBeEmpty("Job Experience")],
     },
 
     mockId: {
-      type: string,
+      type: String,
       required: [true, FieldCannotBeEmpty("Mock Id")],
     },
-
-    user: {
+    created_by: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
+      required: [true, FieldCannotBeEmpty("User")],
     },
   },
   {

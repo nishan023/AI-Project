@@ -95,3 +95,9 @@ export interface IQueryTag {
   tag2?: string | number | any;
   userId: string | number;
 }
+
+export interface IInterviewDto {
+  jobPosition: string;
+  jobDesc: string;
+  jobExperience: string;
+}

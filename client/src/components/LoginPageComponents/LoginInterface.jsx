@@ -5,6 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { loginReq } from "../../services/Apis";
 import { useDispatch } from "react-redux";
 import { loginReducer } from "../../redux/authSlice";
+
 import Swal from "sweetalert2";
 
 const LoginInterface = () => {
@@ -28,7 +29,7 @@ const LoginInterface = () => {
 
     try {
       const userData = await loginReq(data);
-      console.log(userData,"username login data")
+      console.log(userData, "username login data");
       dispatch(
         loginReducer({
           userId: userData.data._id,
@@ -37,9 +38,9 @@ const LoginInterface = () => {
         })
       );
 
-      console.log(userData.data.access_token)
+      console.log(userData.data.access_token);
 
-      localStorage.setItem("access_token",userData.data.access_token);
+      localStorage.setItem("access_token", userData.data.access_token);
 
       Swal.fire({
         title: "Success ",
@@ -56,7 +57,7 @@ const LoginInterface = () => {
       });
     }
   };
-  
+
   return (
     <form onSubmit={handleSubmit}>
       <div className="bg-slate-50 flex flex-col justify-center h-4/6 rounded-lg space-y-5 p-20 pt-32">
@@ -100,12 +101,14 @@ const LoginInterface = () => {
           Forgot password?
         </Link>
 
-          <div className="flex space-x-2">
+        <div className="flex space-x-2">
           <p className="font-light text-gray-500">Don't have an account?</p>
-        <Link to={"/register"}>
-          <p className="text-center hover:underline font-small text-gray-500">Register here</p>
-        </Link>
-          </div>
+          <Link to={"/register"}>
+            <p className="text-center hover:underline font-small text-gray-500">
+              Register here
+            </p>
+          </Link>
+        </div>
       </div>
     </form>
   );

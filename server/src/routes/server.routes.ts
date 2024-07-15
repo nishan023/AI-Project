@@ -8,6 +8,7 @@ import authRouter from "./auth.routes";
 import userRouter from "./userprofile.routes";
 import blogRouter from "./blog.routes";
 import commentRouter from "./comment.routes";
+import interviewRouter from "./interview.routes";
 
 export const initializeRoutes = (expressApplication: Application) => {
   //landing route
@@ -20,6 +21,7 @@ export const initializeRoutes = (expressApplication: Application) => {
     userRouter,
     blogRouter,
     commentRouter,
+    interviewRouter,
   ]);
 
   expressApplication.all("*", (req, res, next) => {
