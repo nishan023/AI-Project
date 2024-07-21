@@ -3150,3 +3150,809 @@
 [35m[39m
  [35mhttp[39m: [35mGET /api/interview/60cc6ffc-006d-4e2f-ab0b-9968b8d6b5a6 201 3043 - 36.802 ms[39m
 [35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.015 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 117.650 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.659 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.473 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 48.182 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 29.307 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 42.210 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 53.824 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.309 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 3699 - 7244.472 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/d67acb2a-383a-4566-a37d-5cff6f248543 204 0 - 0.247 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/d67acb2a-383a-4566-a37d-5cff6f248543 201 3950 - 22.245 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/d67acb2a-383a-4566-a37d-5cff6f248543/start 204 0 - 0.210 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/d67acb2a-383a-4566-a37d-5cff6f248543/start 201 3461 - 40.068 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/d67acb2a-383a-4566-a37d-5cff6f248543 201 3950 - 38.738 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.290 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 82.587 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.188 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 1.501 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 28.884 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 24.067 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.181 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 3417 - 7003.883 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/0bad4474-722b-4a97-b610-36f6195a00c8 204 0 - 0.294 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/0bad4474-722b-4a97-b610-36f6195a00c8 201 3658 - 24.037 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/0bad4474-722b-4a97-b610-36f6195a00c8/start 204 0 - 0.388 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/0bad4474-722b-4a97-b610-36f6195a00c8/start 201 3181 - 30.576 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/0bad4474-722b-4a97-b610-36f6195a00c8 201 3658 - 27.403 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/0bad4474-722b-4a97-b610-36f6195a00c8 204 0 - 0.252 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/0bad4474-722b-4a97-b610-36f6195a00c8 201 3658 - 20.100 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.153 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 4353 - 8627.069 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/915cfe69-bc96-4565-b451-897460cdbfdd 204 0 - 0.353 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/915cfe69-bc96-4565-b451-897460cdbfdd 201 4582 - 10.964 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/915cfe69-bc96-4565-b451-897460cdbfdd/start 204 0 - 0.150 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/915cfe69-bc96-4565-b451-897460cdbfdd 204 0 - 0.149 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/915cfe69-bc96-4565-b451-897460cdbfdd/start 201 4103 - 37.470 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/915cfe69-bc96-4565-b451-897460cdbfdd 201 4582 - 28.991 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.922 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 147.613 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.361 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.194 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 60.713 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 13.869 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.135 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 2974 - 10519.839 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/387dfc1e-67cf-45c7-80fe-32f522b15e12 204 0 - 0.352 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/387dfc1e-67cf-45c7-80fe-32f522b15e12 201 3218 - 16.255 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/387dfc1e-67cf-45c7-80fe-32f522b15e12/start 204 0 - 0.249 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/387dfc1e-67cf-45c7-80fe-32f522b15e12 204 0 - 0.181 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/387dfc1e-67cf-45c7-80fe-32f522b15e12/start 201 2744 - 27.436 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/387dfc1e-67cf-45c7-80fe-32f522b15e12 201 3218 - 25.058 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.406 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 119.399 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.313 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.159 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 46.949 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 18.188 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.229 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 2234 - 7111.169 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/4fb834c8-13f7-4807-8109-19e7bc827de3 204 0 - 0.278 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/4fb834c8-13f7-4807-8109-19e7bc827de3 201 2464 - 20.036 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/4fb834c8-13f7-4807-8109-19e7bc827de3/start 204 0 - 0.245 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/4fb834c8-13f7-4807-8109-19e7bc827de3 204 0 - 0.192 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/4fb834c8-13f7-4807-8109-19e7bc827de3/start 201 2005 - 29.591 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/4fb834c8-13f7-4807-8109-19e7bc827de3 201 2464 - 27.418 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.266 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 87.158 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.197 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.155 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 26.311 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 18.898 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.262 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 3063 - 21645.951 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/dba167d0-9666-4e6a-80f0-74280210c345 204 0 - 0.311 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dba167d0-9666-4e6a-80f0-74280210c345 201 3307 - 17.632 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/dba167d0-9666-4e6a-80f0-74280210c345/start 204 0 - 0.161 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/dba167d0-9666-4e6a-80f0-74280210c345 204 0 - 0.176 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dba167d0-9666-4e6a-80f0-74280210c345/start 401 98 - 23.468 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dba167d0-9666-4e6a-80f0-74280210c345 201 3307 - 20.562 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/dba167d0-9666-4e6a-80f0-74280210c345 204 0 - 0.136 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dba167d0-9666-4e6a-80f0-74280210c345 201 3307 - 10.322 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dba167d0-9666-4e6a-80f0-74280210c345 201 3307 - 26.593 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.295 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.162 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 20.412 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 19.667 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.123 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 67.228 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.200 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.172 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 18.197 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4649 - 23.435 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.592 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/blog 201 126 - 45.777 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 25.059 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 17.169 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/tags?tags=gay 204 0 - 0.187 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/tags?tags=gay 201 421 - 14.065 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.278 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.211 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 17.420 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 17.209 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.192 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 3719 - 10015.036 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/a95c5769-3f4c-4095-b6d1-af02479e8a98 204 0 - 0.619 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/a95c5769-3f4c-4095-b6d1-af02479e8a98 201 3978 - 13.027 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/a95c5769-3f4c-4095-b6d1-af02479e8a98/start 204 0 - 0.213 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/a95c5769-3f4c-4095-b6d1-af02479e8a98/start 401 100 - 44.672 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/a95c5769-3f4c-4095-b6d1-af02479e8a98 201 3978 - 55.674 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/a95c5769-3f4c-4095-b6d1-af02479e8a98/start 204 0 - 0.132 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/a95c5769-3f4c-4095-b6d1-af02479e8a98 204 0 - 2.741 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/a95c5769-3f4c-4095-b6d1-af02479e8a98/start 401 100 - 29.113 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/a95c5769-3f4c-4095-b6d1-af02479e8a98 201 3978 - 42.592 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.173 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 70.301 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.157 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.168 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 25.551 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 30.698 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.215 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 3675 - 11394.751 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 204 0 - 0.539 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 201 3920 - 19.699 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297/start 204 0 - 0.201 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 201 3920 - 30.113 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297/start 401 100 - 37.455 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 204 0 - 0.228 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 201 3920 - 14.820 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297/start 204 0 - 0.144 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 204 0 - 0.188 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297/start 401 100 - 45.279 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 201 3920 - 28.086 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297/start 204 0 - 2.100 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 204 0 - 0.465 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297/start 401 100 - 75.706 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 201 3920 - 137.059 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297/start 204 0 - 2.361 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 204 0 - 0.214 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297/start 401 100 - 52.231 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 201 3915 - 44.641 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297/start 204 0 - 1.991 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 204 0 - 0.368 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297/start 401 100 - 63.316 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 201 3915 - 33.374 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 204 0 - 2.161 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 201 3915 - 62.350 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 204 0 - 0.347 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 201 3915 - 157.952 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 204 0 - 0.442 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/b3f45595-6982-47d2-86a9-5654ac5e3297 201 3915 - 111.254 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.125 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 164.447 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.396 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.214 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 63.963 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 38.350 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.295 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.165 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 35.218 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 56.316 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/tags?tags=coding 204 0 - 0.184 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/tags?tags=coding 201 676 - 13.558 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.282 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 3780 - 9269.467 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/e2591a74-3831-4627-a189-4a1b7c6f126f 204 0 - 0.282 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/e2591a74-3831-4627-a189-4a1b7c6f126f 201 4023 - 24.759 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/e2591a74-3831-4627-a189-4a1b7c6f126f 204 0 - 0.215 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/e2591a74-3831-4627-a189-4a1b7c6f126f 201 4023 - 83.864 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/e2591a74-3831-4627-a189-4a1b7c6f126f 204 0 - 0.600 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/e2591a74-3831-4627-a189-4a1b7c6f126f 201 4023 - 9.228 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.268 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 4049 - 8253.950 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/21aa8ef9-1f24-41d5-b71f-ab660ae0079d 204 0 - 0.492 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/21aa8ef9-1f24-41d5-b71f-ab660ae0079d 201 4278 - 22.888 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/21aa8ef9-1f24-41d5-b71f-ab660ae0079d 204 0 - 0.330 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/21aa8ef9-1f24-41d5-b71f-ab660ae0079d 201 4278 - 49.447 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/21aa8ef9-1f24-41d5-b71f-ab660ae0079d 204 0 - 0.639 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/21aa8ef9-1f24-41d5-b71f-ab660ae0079d 201 4278 - 34.109 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.110 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 77.727 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.173 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 47.633 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5858 - 26.331 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.158 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/blog 201 128 - 49.262 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 7014 - 25.495 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 7014 - 46.089 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/tags?tags=chut 204 0 - 0.170 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/tags?tags=chut 201 314 - 10.534 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.128 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 7014 - 22.044 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 7014 - 25.020 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog/6695f9ec6e5d7aa64f330f95 204 0 - 0.115 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/blog/6695f9ec6e5d7aa64f330f95 201 119 - 14.459 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog/669743cff8af64154e644ce6 204 0 - 0.150 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/blog/669743cff8af64154e644ce6 201 119 - 29.635 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.123 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/blog 201 119 - 34.590 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 42.082 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 25.665 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/tags?tags=coding 204 0 - 0.218 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/tags?tags=coding 201 944 - 23.372 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.187 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 4628 - 19227.588 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/92619090-9f6c-4ec6-9620-80007118ebf8 204 0 - 0.183 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/92619090-9f6c-4ec6-9620-80007118ebf8 201 4874 - 21.150 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/92619090-9f6c-4ec6-9620-80007118ebf8 204 0 - 0.108 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/92619090-9f6c-4ec6-9620-80007118ebf8 201 4874 - 83.697 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.246 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 186.029 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.609 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.293 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 43.438 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 21.585 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.180 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 3037 - 6954.890 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 204 0 - 0.172 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 201 3282 - 22.873 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 204 0 - 0.314 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 201 3282 - 25.252 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 204 0 - 0.235 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 201 3282 - 15.548 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 201 3282 - 17.049 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 201 3282 - 16.248 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 204 0 - 0.160 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 201 3282 - 24.097 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 204 0 - 1.932 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/9d6feb72-c910-4611-bd2f-1ef6d6baf577 201 3282 - 50.604 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.382 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 2220 - 5507.785 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7 204 0 - 0.330 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7 201 2449 - 19.046 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7/start 204 0 - 2.332 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7 204 0 - 0.431 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7/start 201 1993 - 68.346 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7 201 2449 - 54.767 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7/start 204 0 - 0.165 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7 204 0 - 0.205 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7/start 201 1993 - 50.697 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7 201 2449 - 53.282 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7 204 0 - 0.228 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/e67d777d-24b5-443d-ac13-c011d896a8d7 201 2449 - 14.162 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.866 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.447 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 39.349 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 22.093 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.156 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 3047 - 5536.582 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/7350d093-a73d-4f2e-af8b-76085584ba9d 204 0 - 0.215 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/7350d093-a73d-4f2e-af8b-76085584ba9d 201 3274 - 27.071 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/7350d093-a73d-4f2e-af8b-76085584ba9d/start 204 0 - 0.219 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/7350d093-a73d-4f2e-af8b-76085584ba9d 204 0 - 0.174 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/7350d093-a73d-4f2e-af8b-76085584ba9d/start 201 2820 - 67.922 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/7350d093-a73d-4f2e-af8b-76085584ba9d 201 3274 - 35.610 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/7350d093-a73d-4f2e-af8b-76085584ba9d/start 204 0 - 0.228 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/7350d093-a73d-4f2e-af8b-76085584ba9d 204 0 - 0.295 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/7350d093-a73d-4f2e-af8b-76085584ba9d/start 201 2820 - 28.117 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/7350d093-a73d-4f2e-af8b-76085584ba9d 201 3274 - 35.776 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.935 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 155.111 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.391 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.391 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 43.194 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 18.803 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 21.734 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 18.563 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.203 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.138 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 16.574 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 15.380 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.145 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 2008 - 5824.167 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/dcac76e2-af3d-4dda-b720-10c701c8d4bb 204 0 - 0.233 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dcac76e2-af3d-4dda-b720-10c701c8d4bb 201 2235 - 17.875 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/dcac76e2-af3d-4dda-b720-10c701c8d4bb/start 204 0 - 2.062 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/dcac76e2-af3d-4dda-b720-10c701c8d4bb 204 0 - 0.417 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dcac76e2-af3d-4dda-b720-10c701c8d4bb/start 201 1781 - 74.303 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dcac76e2-af3d-4dda-b720-10c701c8d4bb 201 2235 - 57.457 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.196 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 103.875 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.604 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.304 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 40.906 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6043 - 32.352 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog/668f3fbf5de4ec42b1b88f37 204 0 - 0.646 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/blog/668f3fbf5de4ec42b1b88f37 201 119 - 21.897 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.209 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/blog 201 117 - 52.046 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6155 - 22.803 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6155 - 23.334 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/tags?tags=chut 204 0 - 0.177 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/tags?tags=chut 201 303 - 6.592 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.170 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 2655 - 6189.552 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/865666d9-50e4-4fac-8a26-a1ce660c9a76 204 0 - 0.197 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/865666d9-50e4-4fac-8a26-a1ce660c9a76 201 2900 - 20.616 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/865666d9-50e4-4fac-8a26-a1ce660c9a76/start 204 0 - 0.188 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/865666d9-50e4-4fac-8a26-a1ce660c9a76/start 201 2425 - 50.516 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/865666d9-50e4-4fac-8a26-a1ce660c9a76 201 2900 - 47.541 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.205 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 73.885 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.610 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.165 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6155 - 27.440 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6155 - 24.466 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.130 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 2174 - 5655.599 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/1899ffe7-88e6-41d5-b913-fac380ceae7e 204 0 - 0.220 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/1899ffe7-88e6-41d5-b913-fac380ceae7e 201 2401 - 17.116 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/1899ffe7-88e6-41d5-b913-fac380ceae7e/start 204 0 - 0.210 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/1899ffe7-88e6-41d5-b913-fac380ceae7e/start 201 1942 - 26.126 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/1899ffe7-88e6-41d5-b913-fac380ceae7e 201 2401 - 26.210 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.695 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 217.956 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.370 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.291 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6155 - 79.510 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6155 - 18.048 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.263 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 2253 - 14304.674 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/dec301a7-4ccf-47e1-90b1-c3f554f339f9 204 0 - 0.447 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dec301a7-4ccf-47e1-90b1-c3f554f339f9 201 2479 - 18.643 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/dec301a7-4ccf-47e1-90b1-c3f554f339f9/start 204 0 - 0.188 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/dec301a7-4ccf-47e1-90b1-c3f554f339f9 204 0 - 0.302 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dec301a7-4ccf-47e1-90b1-c3f554f339f9/start 201 2026 - 44.343 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/dec301a7-4ccf-47e1-90b1-c3f554f339f9 201 2479 - 36.289 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.147 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 75.650 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.618 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.183 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6155 - 26.385 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6155 - 15.558 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog/668f44b6fa96599ef1fb7626 204 0 - 0.151 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/blog/668f44b6fa96599ef1fb7626 201 119 - 32.267 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.152 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 2615 - 11100.207 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8 204 0 - 0.162 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8 201 2844 - 15.081 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8/start 204 0 - 0.216 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8 204 0 - 0.176 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8/start 201 2388 - 27.802 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8 201 2844 - 27.064 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8/start 204 0 - 0.117 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8 204 0 - 0.103 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8/start 201 2388 - 24.334 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8 201 2844 - 22.265 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8 204 0 - 0.128 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/77719eb7-e765-4bd9-9020-f643c695fdb8 201 2844 - 18.370 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.207 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 68.804 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.455 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.127 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4904 - 27.256 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4904 - 47.879 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 1.122 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.223 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4904 - 21.996 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4904 - 13.941 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 1.511 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 285.036 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.447 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.415 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4904 - 98.467 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4904 - 27.510 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview 204 0 - 0.232 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/interview 201 3823 - 7997.482 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/a99f41e7-1b00-42ff-adc0-2670347f180c 204 0 - 0.301 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/a99f41e7-1b00-42ff-adc0-2670347f180c 201 4055 - 19.682 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/a99f41e7-1b00-42ff-adc0-2670347f180c/start 204 0 - 0.216 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/interview/a99f41e7-1b00-42ff-adc0-2670347f180c 204 0 - 0.376 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/a99f41e7-1b00-42ff-adc0-2670347f180c 201 4055 - 14.596 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/interview/a99f41e7-1b00-42ff-adc0-2670347f180c/start 201 3596 - 43.120 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.218 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 98.621 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.299 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.223 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4904 - 30.906 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 4904 - 48.759 ms[39m
+[35m[39m

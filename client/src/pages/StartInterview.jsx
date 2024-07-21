@@ -14,10 +14,8 @@ const StartInterview = () => {
   const isFetched = React.useRef(false);
   useEffect(() => {
     if (!isFetched.current) {
-      // Only fetch if not already fetched
-      const fetchData = async () => {
+      const fetchJsonData = async () => {
         try {
-          console.log(mockId);
           const response = await axios.get(
             `http://localhost:5001/api/interview/${mockId}/start`,
             {
@@ -26,14 +24,14 @@ const StartInterview = () => {
               },
             }
           );
-          console.log(response.data.data);
+          console.log(response.data);
           setMockInterviewQuestion(response.data.data);
         } catch (err) {
           console.log(err);
         }
       };
-
-      const fetchData1 = async () => {
+      // Only fetch if not already fetched
+      const fetchData = async () => {
         try {
           console.log(mockId);
           const response = await axios.get(
@@ -44,14 +42,15 @@ const StartInterview = () => {
               },
             }
           );
-          console.log(response.data.data);
+
           setInterviewData(response.data.data);
         } catch (err) {
           console.log(err);
         }
       };
+      fetchJsonData();
       fetchData();
-      fetchData1();
+
       isFetched.current = true; // Mark as fetched
     }
   }, [mockId, access_token]);
@@ -62,7 +61,10 @@ const StartInterview = () => {
         activeQuestionIndex={activeQuestionIndex}
       />
 
-      <RecordAnswerSection />
+      <RecordAnswerSection
+        mockInterviewQuestion={mockInterviewQuestion}
+        activeQuestionIndex={activeQuestionIndex}
+      />
       <div className="flex justify-between space-x-4 mt-4">
         <Button
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"

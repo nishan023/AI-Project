@@ -4,6 +4,7 @@ import Webcam from "react-webcam";
 import { Button } from "../ui/button";
 import useSpeechToText from "react-hook-speech-to-text";
 import { Mic } from "lucide-react";
+import { toast } from "sonner";
 
 const RecordAnswerSection = () => {
   const [userAnswer, setUserAnswer] = useState();
@@ -24,6 +25,19 @@ const RecordAnswerSection = () => {
       setUserAnswer((prevAns) => prevAns + result.transcript)
     );
   }, [results]);
+
+  const SaveUserAnswers = () => {
+    if (isRecording) {
+      stopSpeechToText();
+      if (userAnswer?.length < 10) {
+        toast("Error while saving your answer, Please Record again");
+        return;
+      }
+    } else {
+      startSpeechToText();
+    }
+  };
+
   return (
     <div className="flex items-center justify-center flex-cols">
       <div className="flex flex-col justify-center items-center rounded-lg p-5">
@@ -37,11 +51,7 @@ const RecordAnswerSection = () => {
           }}
         />
       </div>
-      <Button
-        variant="outline"
-        className="my-10"
-        onClick={isRecording ? stopSpeechToText : startSpeechToText}
-      >
+      <Button variant="outline" className="my-10" onClick={SaveUserAnswers}>
         {isRecording ? (
           <h2 className="text-red-600">
             <Mic />
@@ -51,7 +61,7 @@ const RecordAnswerSection = () => {
           "     Record Answer"
         )}
       </Button>
-      <Button onClick={() => console.log(userAnswer)}></Button>
+      <Button onClick={() => console.log(userAnswer)}>Show Answer</Button>
     </div>
   );
 };

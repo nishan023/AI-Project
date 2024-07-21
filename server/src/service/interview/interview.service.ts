@@ -9,12 +9,11 @@ export class InterviewService {
     userId: string,
     { jobPosition, jobDesc, jobExperience }: IInterviewDto
   ) {
-    const input_prompt = `Job Position : ${jobPosition} , Job Description: ${jobDesc}, Years of Experience: ${jobExperience},
-    Depends on this information please give me 5 interview question with Answered in Json Format,
-    Give Question and Answered as field in Json`;
+    const input_prompt = `Job Position: ${jobPosition}, Job Description: ${jobDesc}, Years of Experience: ${jobExperience}.
+    Based on this information, please provide 5 interview questions with answers in JSON format. The JSON should contain "question" and "answer" fields only.`;
 
     const result = await chatSession.sendMessage(input_prompt);
-
+ 
     const MockJsonResponse = result.response
       .text()
       .replace("```json", "")

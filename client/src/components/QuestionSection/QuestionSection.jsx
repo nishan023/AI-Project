@@ -3,8 +3,18 @@
 import { Lightbulb } from "@mui/icons-material";
 import React from "react";
 import { Button } from "../ui/button";
+import { Volume2 } from "lucide-react";
 
 const QuestionSection = ({ mockInterviewQuestion, activeQuestionIndex }) => {
+  const textToSpeech = (text) => {
+    if ("speechSynthesis" in window) {
+      const speech = new SpeechSynthesisUtterance(text);
+      window.speechSynthesis.speak(speech);
+    } else {
+      alert("Your Browser does not support audi ");
+    }
+  };
+
   return (
     mockInterviewQuestion && (
       <div className="p-5 border rounded-lg">
@@ -13,7 +23,7 @@ const QuestionSection = ({ mockInterviewQuestion, activeQuestionIndex }) => {
             <h2
               key={index}
               className={`p-2 bg-secondary rounded-full text-xs md:text-sm text-center cursor-pointer ${
-                activeQuestionIndex == index && "bg-cyan-700 text-white"
+                activeQuestionIndex == index && "bg-cyan-500 text-white"
               }`}
             >
               Question #{index + 1}
@@ -23,7 +33,13 @@ const QuestionSection = ({ mockInterviewQuestion, activeQuestionIndex }) => {
         <h2 className="my-5 text-md md:text-lg">
           {mockInterviewQuestion[activeQuestionIndex]?.question}
         </h2>
-        <div className="border rounded-lg p-5 bg-blue-100 my-10">
+        <Volume2
+          className="cursor-pointer"
+          onClick={() =>
+            textToSpeech(mockInterviewQuestion[activeQuestionIndex]?.question)
+          }
+        />
+        <div className="border rounded-lg p-5 bg-cyan-100 my-10">
           <h2 className="flex gap-2 items-center text-blue-700">
             <Lightbulb />
             <strong>Note: </strong>
