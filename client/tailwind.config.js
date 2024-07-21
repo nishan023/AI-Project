@@ -1,5 +1,8 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 export default {
+  model: "jit",
+  important: "#root",
   darkMode: ["class"],
   content: [
     "./pages/**/*.{js,jsx}",
@@ -17,6 +20,16 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        inter: ["Inter", "serif"],
+        roboto: ["Roboto", "serif"],
+        playFair: ["Playfair Display", "inter"],
+        hk: ["HKGuiseRegular"],
+      },
+      transitionProperty: {
+        width: "width",
+        opacity: "opacity",
+      },
       colors: {
         keppel: {
           50: "#effefa",
@@ -84,6 +97,11 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+    },
+  },
+  variants: {
+    extend: {
+      backdropBlur: ["responsive", "hover", "focus"],
     },
   },
   plugins: [require("tailwindcss-animate")],

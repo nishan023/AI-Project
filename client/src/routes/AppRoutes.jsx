@@ -11,7 +11,8 @@ import EditBlog from "../pages/EditBlog";
 import Dashboard from "../pages/Dashboard";
 import Interview from "@/pages/Interview";
 import StartInterview from "@/pages/StartInterview";
-
+import Layout from "@/layouts/CommonLayout";
+import ProfilePage from "@/pages/ProfilePage";
 const AppRoutes = () => {
   return (
     <BrowserRouter>
@@ -20,7 +21,12 @@ const AppRoutes = () => {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/reset-password" element={<ForgotPassword />} />
-        <Route path="/welcome-page" element={<WelcomePage />} />
+        
+        <Route element={<Layout/>}>
+          <Route path="/home" element={<WelcomePage />} />
+          <Route path="/profile" element={<ProfilePage />} />
+        </Route>
+        
         <Route path="/reset-password/:id/:token" element={<ResetPassword />} />
         <Route path="/blogs" element={<EditBlog />} />
         <Route path="/dashboard" element={<Dashboard />} />
