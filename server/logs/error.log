@@ -78,3 +78,24 @@
  [31merror[39m: [31mDatabase connection error: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
  [31merror[39m: [31mError Message : Operation `gmailusers.findOne()` buffering timed out after 10000ms and Status Code : 500 [39m
  [31merror[39m: [31mError Message : Operation `gmailusers.findOne()` buffering timed out after 10000ms and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/answer/ and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/question/:1 and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/questions/:1 and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [31merror[39m: [31mError Message : Cannot find /user/login and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/login and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/login and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/login and Status Code : 404 [39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m

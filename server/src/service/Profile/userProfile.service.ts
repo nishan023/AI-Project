@@ -4,11 +4,15 @@ import bcrypt from "bcryptjs";
 import AppError from "../../utils/errorUtils/appError";
 import { appendFile } from "fs";
 
-//Get user profile
+// Get user profile
 export const getUserProfile = async (userId: any) => {
-  const user = await User.findById(userId).select("-password");
-  if (!user) throw new AppError(`Not Found`, 403);
-  return user;
+  const user = await User.findById(userId).select("username email");
+  if (!user) throw new AppError("Not Found", 403);
+  return {
+    id: user._id,
+    username: user.username,
+    email: user.email,
+  };
 };
 
 // Update user profile (email, username, secondaryEmail)

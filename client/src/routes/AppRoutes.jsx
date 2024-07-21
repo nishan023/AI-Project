@@ -21,20 +21,21 @@ const AppRoutes = () => {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/reset-password" element={<ForgotPassword />} />
-        
-        <Route element={<Layout/>}>
+
+        <Route element={<Layout />}>
           <Route path="/home" element={<WelcomePage />} />
           <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/blogs" element={<EditBlog />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/dashboard/interview/:mockId" element={<Interview />} />
+          <Route
+            path="/dashboard/interview/:mockId/start"
+            element={<StartInterview />}
+          />
         </Route>
-        
+
         <Route path="/reset-password/:id/:token" element={<ResetPassword />} />
-        <Route path="/blogs" element={<EditBlog />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/dashboard/interview/:mockId" element={<Interview />} />
-        <Route
-          path="/dashboard/interview/:mockId/start"
-          element={<StartInterview />}
-        />
+
         <Route path="/*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>

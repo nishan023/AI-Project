@@ -46,7 +46,7 @@ export default function EditBlog() {
         setContent("");
         setTitle("");
         setTags([]);
-        navigate("/welcome-page");
+        navigate("/home");
       });
     } catch (error) {
       console.log(error);

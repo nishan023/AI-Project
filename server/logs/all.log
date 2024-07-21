@@ -1334,3 +1334,182 @@
 [35m[39m
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 2.120 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 475 - 392.796 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 0.441 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 454 - 18.957 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 0.463 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 454 - 14.236 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 0.641 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 475 - 17.103 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/answer/ and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/answer/ 404 77 - 7.975 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/user/answer/ 403 79 - 13.150 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 457 - 309.638 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/user/answer/ 201 40 - 7.927 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/user/answer/ 201 40 - 21.532 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mPOST /api/user/answer/ 201 85 - 35.355 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/question/:1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /api/user/question/:1 404 81 - 14.512 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/questions/:1 and Status Code : 404 [39m
+ [35mhttp[39m: [35mGET /api/user/questions/:1 404 82 - 4.259 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [35mhttp[39m: [35mGET /api/questions/:1 403 79 - 11.753 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 457 - 394.726 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/questions/:1 200 55 - 11.151 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/questions/1 200 55 - 7.327 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 1.860 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 125 - 259.140 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.222 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 464 - 197.921 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile/ 500 106 - 10.811 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot read properties of undefined (reading 'userId') and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 500 106 - 4.622 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [31merror[39m: [31mError Message : Cannot find /user/login and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /user/login 404 71 - 8.216 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/login and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/login 404 75 - 7.191 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/login and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/login 404 75 - 7.530 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Cannot find /api/user/login and Status Code : 404 [39m
+ [35mhttp[39m: [35mPOST /api/user/login 404 75 - 3.814 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 216.783 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 9.244 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 12.374 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/register 204 0 - 1.364 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/register 201 124 - 275.980 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.490 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 300.951 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 9.023 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 10.738 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 9.199 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 6.832 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 8.330 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 3.241 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 401 72 - 8.107 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 477 - 175.951 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 222 - 256.511 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 86 - 70.689 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 86 - 59.320 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 90 - 55.756 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 96 - 79.647 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 92 - 61.175 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 92 - 46.242 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
