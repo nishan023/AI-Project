@@ -12,6 +12,18 @@ export default {
         'inter': ['Inter', 'serif'],
         'roboto': ['Roboto', 'serif'],
         'playFair': ['Playfair Display', 'inter'],
+        'hk':['HKGuiseRegular']
+      },
+      transitionProperty: {
+        'width': 'width',
+        'opacity': 'opacity',
+      },
+      colors:{
+        bodyMain: {
+          light: '#4c4c4c',
+          DEFAULT: '#212121',
+          dark: '#e53e3e',
+        },
       }
     },
   },

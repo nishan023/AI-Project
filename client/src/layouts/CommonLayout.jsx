@@ -1,26 +1,23 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet } from 'react-router-dom';
 import AuthNav from '../components/LayoutComponents/AuthNav';
 
-
 const Layout = () => {
-
     return (
         <>
-            <div className='grid grid-cols-2'>
-                <div className='z-50 sticky top-0'>
+            <div className='flex bg-bodyMain'>
+                <div >
                     <AuthNav />
                 </div>
-                <main className='z-10 top-0 '>
+                <main className=' w-full pl-16'>
                     <Outlet />
                 </main>
             </div>
 
-            <footer>
-
+            <footer className='relative z-10 w-full'>
+                {/* Footer content here */}
             </footer>
         </>
-    )
-}
-
+    );
+};
 
 export default Layout;

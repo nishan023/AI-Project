@@ -8,6 +8,7 @@ import ForgotPassword from "../pages/ForgotPassword";
 import WelcomePage from "../pages/WelcomePage";
 import ResetPassword from "../pages/ResetPasswordPage";
 import Layout from "../layouts/CommonLayout";
+import ProfilePage from "../pages/ProfilePage";
 
 const AppRoutes = () => {
   return ( 
@@ -20,6 +21,7 @@ const AppRoutes = () => {
         
         <Route element={<Layout/>}>
           <Route path="/home" element={<WelcomePage />} />
+          <Route path="/profile" element={<ProfilePage />} />
         </Route>
         
         <Route path="/reset-password/:id/:token" element={<ResetPassword />} />

@@ -9,6 +9,16 @@ export const loginReq = async (data) => {
   return await commonRequest("POST", `${BACKEND_URL}/api/auth/login`, data);
 };
 
+
+export const fetchUserData = async (token) => {
+  const headers = {
+    "Content-Type": "application/json",
+    "Authorization":token,
+  };
+    const data = await commonRequest('GET', `${BACKEND_URL}/api/user/profile`,null, headers);
+    return data;
+};
+
 export const googleUserDataReq = async (token)=>{
   const headers = {
     'Authorization': `Bearer ${token}`,

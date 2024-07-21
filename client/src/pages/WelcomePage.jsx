@@ -40,12 +40,12 @@ const WelcomePage = () => {
   }
 
   return (
-    <div className="bg-slate-500 w-full h-[2000px]">
+    <div className=" w-full h-[2000px]">
       <Button 
         variant="contained"
         onClick={logout}>Logout
       </Button>
-      <div className="text-black">
+      <div className="text-white">
         <p>Username: {userData.username}</p>
         <p>Email: {userData.email}</p>
       </div>

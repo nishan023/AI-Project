@@ -1366,3 +1366,382 @@
 [35m[39m
  [35mhttp[39m: [35mPOST /api/auth/login 201 478 - 60.645 ms[39m
 [35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.857 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 478 - 104.153 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.701 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 478 - 116.703 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.732 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 478 - 106.871 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login-google 204 0 - 1.721 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/auth/login-google 201 468 - 327.760 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.429 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 478 - 106.943 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.736 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : The Password You Entered Is Incorrect and Status Code : 403 [39m
+ [35mhttp[39m: [35mPOST /api/auth/login 403 85 - 91.382 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 478 - 96.637 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 1.079 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 500 71 - 13.447 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.076 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 478 - 97.386 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.096 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.258 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 500 71 - 1.835 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 500 71 - 1.920 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.229 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 500 71 - 1.777 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 500 71 - 2.147 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.094 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 500 71 - 1.228 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : jwt expired and Status Code : 500 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 500 71 - 2.657 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.413 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.263 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 403 79 - 6.321 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Authentication Token is Missing and Status Code : 403 [39m
+ [35mhttp[39m: [35mGET /api/user/profile 403 79 - 1.128 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 20.192 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 0.167 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 478 - 69.459 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.197 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.152 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 9.766 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.611 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.079 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.612 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.068 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.681 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.083 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.696 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.071 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.285 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.143 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.097 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.007 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.100 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.622 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.098 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.136 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 6.915 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.448 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.517 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.093 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.300 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.443 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.799 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.107 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 2.938 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.125 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.071 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.027 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.186 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 6.058 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 6.210 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.813 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 6.983 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.079 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.810 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.164 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.197 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.915 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.220 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.743 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.093 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.039 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.162 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.070 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 6.320 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.468 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.040 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.071 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.187 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.142 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.149 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.091 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.575 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.945 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.526 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.071 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.910 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.326 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.203 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.069 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.958 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.183 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.694 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.495 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.067 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.749 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 6.373 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.039 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.286 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.123 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.706 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.896 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.108 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.900 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.119 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 6.488 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.663 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.096 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.074 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.777 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.506 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.800 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.320 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.093 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.065 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.820 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.057 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.107 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.068 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.705 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.717 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.369 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.760 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.674 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.905 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.659 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.080 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.051 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.035 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.098 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.355 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.967 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.213 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.040 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.295 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.077 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 6.511 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.835 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.932 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.185 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.725 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.162 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.069 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.232 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.312 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.214 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.241 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.116 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.684 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.946 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.200 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.079 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.870 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.307 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.830 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.988 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 6.014 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.026 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.827 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 4.844 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.090 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.789 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.802 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.165 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 3.693 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.148 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 223 - 5.051 ms[39m
+[35m[39m
