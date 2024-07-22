@@ -99,3 +99,4 @@
  [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
  [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
  [31merror[39m: [31mError Message : Username Does Not Exists and Status Code : 401 [39m
+ [31merror[39m: [31mError Message : Blog validation failed: title: Title Field Cannot Be Empty, content: Content Field Cannot Be Empty and Status Code : 500 [39m

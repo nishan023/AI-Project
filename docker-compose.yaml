@@ -1,0 +1,55 @@
+version: "3"
+
+services:
+  frontend:
+    build:
+      context: "./client"
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    container_name: react-container
+    environment:
+      - WATCHPACK_POLLING=true
+    networks:
+      - ai-project-networks
+    volumes:
+      - ./client:/app
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: "./server"
+      dockerfile: Dockerfile
+    ports:
+      - "5001:5001"
+    container_name: express-container
+    networks:
+      - ai-project-networks
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+    env_file:
+      - ./server/.env
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    container_name: mongo-container
+    networks:
+      - ai-project-networks
+    volumes:
+      - mongoData:/data/db
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=secret
+      - MONGO_INITDB_DATABASE=project
+
+networks:
+  ai-project-networks:
+
+volumes:
+  mongoData:

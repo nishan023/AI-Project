@@ -1513,3 +1513,152 @@
  [35mhttp[39m: [35mInitialized db connection[39m
  [35mhttp[39m: [35mServer running on port 5001...[39m
  [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 3.537 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 1.016 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6109 - 210.055 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 6109 - 72.535 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog/66986385970a85400357c9b3 204 0 - 0.276 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mDELETE /api/blog/66986385970a85400357c9b3 201 119 - 60.213 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.443 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.270 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 200 82 - 41.253 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 34.579 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.418 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 37.033 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 20.023 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.456 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 24.313 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.427 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 17.061 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.376 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 35.899 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.262 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 53.870 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.240 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 46.908 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.142 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 14.278 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.178 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 28.234 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.318 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 85.610 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.277 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 32.231 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.217 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 18.119 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 24.554 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 17.290 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.237 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/user/profile 204 0 - 0.150 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 33.219 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/user/profile 304 - - 23.735 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.178 ms[39m
+[35m[39m
+ [31merror[39m: [31mError Message : Blog validation failed: title: Title Field Cannot Be Empty, content: Content Field Cannot Be Empty and Status Code : 500 [39m
+ [35mhttp[39m: [35mPOST /api/blog 500 156 - 36.880 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 21.848 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 35.661 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 20.127 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 35.936 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.248 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.151 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 22.738 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 38.533 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 87.350 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 58.675 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.303 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.182 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 40.956 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 118.826 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mServer running on port 5001...[39m
+ [35mhttp[39m: [35mInitialized db connection[39m
+ [35mhttp[39m: [35mOPTIONS /api/auth/login 204 0 - 2.424 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mPOST /api/auth/login 201 466 - 589.087 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.440 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.219 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 99.755 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 123.581 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.200 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.099 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 281.473 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 52.895 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.363 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mOPTIONS /api/blog 204 0 - 0.404 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 18.949 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 28.466 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 22.659 ms[39m
+[35m[39m
+ [35mhttp[39m: [35mGET /api/blog 201 5018 - 18.557 ms[39m
+[35m[39m
